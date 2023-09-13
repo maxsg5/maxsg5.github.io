@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+header{
+    color: white;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    border-radius: 20px;
+}
+.content-text{
+    color: white;
+    font-size: larger;
+}
+footer {
+    color: white;
+    background-color: rgb(81, 81, 81);
+    border-radius: 20px;
+    text-align: center;
+    /* grid layout */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
