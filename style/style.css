@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:#181a1b;
 }
 
 header{
@@ -25,4 +25,9 @@ footer {
 .content-text{
     color: white;
     font-size: larger;
+}
+
+.marquee-box{
+    color: white;
+    border-style: solid;
 }
