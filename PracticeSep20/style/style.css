@@ -1,0 +1,19 @@
+/* styling for practice sep 20 */
+
+/* color library 
+custom Blue: rgb(5, 255, 251);
+
+*/
+
+* {
+    margin: 20px;
+}
+
+a {
+    background-color: indigo;
+    color: hotpink;
+}
+
+section#links a {
+    color: rgb(5, 255, 251);
+}

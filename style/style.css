@@ -1,0 +1,52 @@
+a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #7EA8F8;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer {
+  padding: 5%;
+}
+
+hr {
+  width: 100%;
+}
+
+section {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table.homeworkTable {
+    width: 50%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table.homeworkTable td, table.homeworkTable th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table.homeworkTable thead {
+    background-color: #025aff;
+    color: white;
+  }
+  
