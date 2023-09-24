@@ -2,7 +2,6 @@
 body {
     background-color: #181a1b;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header {
@@ -18,16 +17,108 @@ ul li{
     display: inline;
 }
 
-li {
+button {
     background-color: rgb(240, 240, 65);
-    border-style: solid;
-    border-color: white;
     border-radius: 10%;
+    height: 30px;
+    width: 100px;
+    filter: drop-shadow(0px 0px 10px rgb(240, 240, 65));
+}
+
+button:hover {
+    background-color: red;
+    filter: drop-shadow(0px 0px 10px red);
+}
+
+span {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    color: white;
+    font-size: x-large;
+}
+
+.footer-box {
+    margin-top: 50px;
+    border-style: solid;
+    width: 98%;
 }
 
 #HeaderImageBtn > a > img{
     height: 200px;
     width: 200px;
+}
+
+.padding-top{
+    padding-top: 100px;
+}
+
+.padding-bottom{
+    padding-bottom: 100px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.header-grid {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    grid-template-areas: 
+      "."
+      "."; 
+}
+
+.door {
+    position: relative;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+      "."
+      "."; 
+}
+
+.image-text {
+    position: absolute;
+    top: -25%;    
+    left: 24%;   
+    width: 50%; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1vw;    
+    text-align: center; 
+    z-index: 10;
+}
+
+.center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door > img {
+    width: 150px;
+    height: 250px;
 }
 
 .full-width{
@@ -36,4 +127,23 @@ li {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    
+}
+
+.door-showcase {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 10%;
+    grid-template-areas: 
+      ". . ."
+      ". . ."; 
+}
+
+.review-box {
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 90%;
 }
