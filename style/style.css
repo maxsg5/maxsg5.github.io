@@ -50,4 +50,10 @@ table.homeworkTable {
     background-color: #025aff;
     color: white;
   }
+
+  .center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
   
