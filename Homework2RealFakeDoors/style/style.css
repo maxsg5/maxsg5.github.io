@@ -1,4 +1,8 @@
+/* Author: Max Schafer, Course: DESN 340 */
+/* real fake doors site styling */
 
+
+/* element specific styling */
 body {
     background-color: #181a1b;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,15 +60,19 @@ p {
     font-size: x-large;
 }
 
-.footer-box {
-    margin-top: 50px;
-    border-style: solid;
-    width: 98%;
-}
+/* ID styling */
 
 #HeaderImageBtn > a > img{
     height: 200px;
     width: 200px;
+}
+
+/* class styling */
+
+.footer-box {
+    margin-top: 50px;
+    border-style: solid;
+    width: 98%;
 }
 
 .padding-top{
@@ -121,13 +129,12 @@ p {
     height: 250px;
 }
 
-.full-width{
+.full-width-img{
     height: 1000px; 
     background-image: url('../images/RFDBackground.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    
 }
 
 .door-showcase {
