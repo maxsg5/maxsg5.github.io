@@ -3,10 +3,6 @@ body{
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), /* linear gradiant used to dim the image */
         url(../images/space.jpg);
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 h1 {
@@ -51,7 +47,7 @@ h1 {
     height: 10px;
     background-color: gray;
     border-radius: 50%;
-    transform-origin: -20px center; /* Adjust based on desired orbit radius around the planet */
+    transform-origin: -20px center;
     animation: rotateMoon 3s infinite linear;
 }
 

@@ -67,12 +67,18 @@ p {
     width: 200px;
 }
 
+#ReviewTitle {
+  animation-name: color-shift;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 /* class styling */
 
 .footer-box {
     margin-top: 50px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(240, 240, 65);
     margin-bottom: 20px;
     width: 98%;
 }
@@ -154,6 +160,16 @@ p {
     border-style: solid;
     border-width: 10px;
     border-radius: 20px;
-    border-color: white;
+    border-color: rgb(240, 240, 65);
     width: 90%;
+    filter: drop-shadow(0px 0px 10px rgb(240, 240, 65));
 }
+
+/* animations */
+@keyframes color-shift {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:rgb(0, 255, 208); left:200px; top:200px;}
+    75%  {color:rgb(255, 157, 0); left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
