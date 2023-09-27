@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.header a {
+    color: white;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .5em 2em;
+    display: inline-block;
+}
+
+.buttons:nth-child(1) {
+    color: aqua;
+}
+
+.header {
+    color: white;
+    background-color: #d96c63;
+    width: 50%;
+    padding: 40px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header h5 {
+    margin: 0;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#CTA {
+    background-color: white;
+    color: #d96c63;
+}

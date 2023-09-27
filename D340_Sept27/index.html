@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<!-- This is where you put everything that needs to be read by the browser but not rendered visually -->
+
+		<meta charset="UTF-8"> <!-- new -->
+
+		<title>53 Website Oct 5</title>
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/grid.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<!-- if you need to add more css links, remember to consider the cascade -->
+
+		<!-- below here is the font infor -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	</head>
+<!-- 
+	The part of the code that displays in the browser begins below here
+	-->
+
+	<body>
+		<!-- The header is where the nav lives -->
+		<header> <!-- we want to use good sematic syntax, so we use header instead of the generic <div> -->
+			<div> <!-- this is here to contain everything in the row. we will create a "row" class for this -->
+				<div> 
+					<a href="index.html"> 
+						<img src="images/logo-53.png">
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="interior.html">Think</a></li>
+						<li><a href="#">Paper</a></li>
+						<li><a href="#">Pencil</a></li>
+						<li><a href="#">Mix</a></li>
+						<li><a href="#">Shop</a></li>
+						<li id="download"><a href="#">Download</a></li>
+						<!-- the "_blank" below here means the link open in a new window -->
+						<li><a href="http://www.facebook.com" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a></li>
+						<!-- The alt="" creates a word that the browser can show the user if the png doesn't load -->
+						<li><a href="http://www.twitter.com" target="_blank"><img src="images/icon-twitter.png" alt="Twitter"></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="hero" class="container-fluid"> <!-- this will  be the first part below the navigation; the jumbotron or billboard section -->
+			<div class="container"> <!-- container -->
+				<section class="row">
+					<h1>
+						<span>Pencil</span>
+						<br>
+						Think with your hands.
+					</h1>
+					<a href="#" id="buy-now">Buy now</a>
+					<a href="#">Also as Amazon.com</a>
+				</section>
+				<div class="row">
+					<a href="#">Watch Video</a>
+				</div>
+			</div><!-- container ends-->
+		</section>
+
+		<section id="surface-pressure" class="container"> <!-- This is the section below the Billboard. add the id "Surface Pressure"-->
+			<div class="row">
+				<section>
+					<img src="images/illustration-1.png" alt="Icon of surface pressure">
+					<h2 class="grey">Surface Pressure</h2>
+					<p class="grey">Expressive from every angle. Pencil's unique tip is shaped to create lines of all sizes without any settings. Use the point for fine details and the angled edge for broad strokes.</p>
+				</section>
+				<div>
+					<img src="images/home-pencil-sketch.png" alt="Pencil product shown drawing a building">
+				</div>
+			</div>
+		</section>
+
+		<section id="surface-pressure" class="container"> <!-- This is the Simply Works section -->
+			<section class="row"> <!-- The simply works section actually splits into 2 parts so we need to create a <section> inside a <section> -->
+				<h1>Simply Works</h1>
+				<p>The best tools don't require a lot of fuss - they just work. With Pencil, we've radically simplified things like charging and wireless connection so you can spend less time in menus and more time creating.</p>
+			</section>
+			
+			<div class="row">
+				<section class="col-4">
+					<img src="images/illustration-3.png" alt="Power it up icon">
+					<h2>Power it up</h2>
+					<p>Under normal use, you won't need to recharge Pencil for about a month. The battery can slid out and recharged on any standard USB port in under 90 minutes.</p>
+				</section>
+
+				<section class="col-4">
+					<img src="images/illustration-4.png" alt="Kiss to pair icon" id="kiss">			
+					<h2>Kiss to Pair &#8482;</h2>
+					<p>Bluetooth connection as it should be: no settings menus, no confusing pairing rituals. Just press Pencil's tip to the screen. Clear, stable, simple... easy as falling in love.</p>
+				</section>
+
+				<section class="col-4" >
+					<img src="images/illustration-2.png" alt="Play nicely">				
+					<h2>Plays nicely</h2>
+					<p>Palm Rejectin, Erase, and Blend work only on Paper and other supported applications, but Pencil also works as a non-connected stylus in any other app and on any touchscreen device.</p>
+				</section>
+
+			</div>
+		</section>
+
+		<footer> <!-- Last is the footer. To keep things simple, make sure this section is at the same level of indent as the header -->
+			<img src="images/logo-53-footer.png" alt="Pencil 53 logo">
+			<nav> <!-- There are 4 columns of navigation links -->
+				<ul>
+					<li><a href="#">Think</a></li>
+					<li><a href="#">Paper</a></li>
+					<li><a href="#">Pencil</a></li>
+					<li><a href="#">Mix</a></li>
+					<li><a href="#">Book</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Making</a></li>
+					<li><a href="#">Made with paper</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Press</a></li>
+				</ul>
+			</nav>
+			<div> <!-- include a section for the copyright info -->
+				<p>
+					Made in New York and Seattle. &copy; 2015 Fifty Three, Inc.
+					<a href="#">Terms</a> 
+					<a href="#">Privacy</a>
+					<a href="#">Legal</a>
+					<a href="#">Security</a>
+				</p>
+				
+			</div>
+
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,229 @@
+/* STYLE SHEET */
+/*
+COLORS
+#fffcf5 ecru
+#a39e93 ecru
+#c94a00 orange
+#a13b00 dark orange
+#66615a brown
+#ffffff white
+#ec5e28 bright orange
+#f1eae1 light ecru
+#67625e
+#66625b dark clay
+#252321 almsot black grey
+
+FONTS
+Roboto San Serif
+h1 - 74px 300weight uppercase
+	span - 700weight
+	simply - 70px normal weight
+h2 - 20px bolder
+h3
+h4
+h5
+h6
+body - 16px
+header - 14px
+
+/** GLOBAL STYLING  **/
+
+/* ======================================= */
+
+/* Box Model fix */
+
+/* ======================================= */
+
+/* clearfix */
+
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+/* ======================================= */
+
+/* Typography */
+
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-weight: bolder;
+	}
+
+	a {
+		color: #c94a00;
+	}
+
+/* ======================================= */
+
+/* header  ===   
+uses classes: "row" "added-margin"
+uses IDs: "download", "facebook-icon", "twitter-icon"
+uses Combinators: 
+	descendants of the 'header' selector
+	descendants of the 'header' selector that are <li> lists items and have an id name  
+
+*/
+
+	
+	header {
+		background-color: #fffcf5;
+	}
+
+	header a {
+		text-decoration: none;
+		font-weight: 600;
+		color: #66615a;
+	}
+
+	header ul {
+		list-style: none;
+		margin: 10px;
+	}
+
+	header li a {
+		text-transform: uppercase;
+	}
+
+	header li#download {
+		margin: 10px;
+	}
+
+	header li#download a {
+		border: solid 2px #66615a;
+		padding: 5px 10px;
+		border-radius: 16px;
+	}
+
+	header #facebook-icon {}
+
+	header #twitter-icon {}
+
+/* this is there the @media stuff will go
+	header nav ul {
+		margin-left: 15px;
+	}
+*/
+
+/* ================================== *//*
+HOMEPAGE STYLE GOES NEXT
+/* ================================== */ 
+
+/* hero section  ===   
+uses classes: "row" "button"
+uses IDs: "hero", "buy-now", "watch-video"
+uses Combinators: 
+	class: button for <a> tags
+	ID: buy-now hover interaction <a> tags
+*/ 
+	#hero span {
+		/* background-color: blue; */
+		display: inline;
+	}
+
+	#hero h1 {
+		font-size: 74px;
+		text-transform: uppercase;
+		font-weight: 300;
+		/* background-color: red; */
+		/* display: inline-block; */
+		height: 50%;
+	}
+
+	#hero h1 span {
+		font-weight: 700;
+	}
+
+	#hero a {
+		color: #fff; /* this the short code for white */
+		font-weight: normal;
+	}
+
+	a#buy-now {
+		padding: 10px 20px;
+		border-radius: 20px;
+		color: white;
+		background-color: #ec5e28;
+		margin: 18px;
+	}
+
+/* Surface Pressure  ===   
+uses classes: "row"
+uses IDs: "surface-pressure"
+*/ 
+
+#surface-pressure h2 {
+	line-height: 80%;
+}
+
+/* Simply Works  ===   
+uses classes: "sw-icon-adjust-1", "sw-icon-adjust-2"
+uses IDs: "simply-works", "sw-header", "sw-features", "kiss"
+*/ 
+
+#simply-works {
+
+}
+/* this is where the @media stuff for the simply works section will go */
+
+/* ================================== *//*
+INTERIOR STYLE GOES NEXT
+/* ================================== */ 
+
+
+
+/* ================================== *//*
+FOOTER STYLE GOES NEXT
+/* ================================== */ 
+
+/* footer  ===   
+uses classes: "bright", "copyright"
+*/ 
+
+footer {
+	background-color: #252321;
+	color: #a39e93;
+	padding-top: 35px;
+	font-size: 90%;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	margin-bottom: 8px;
+}
+
+footer li a {
+	color: #66615a; /* brown */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.copyright {
+	margin-top: 50px;
+	margin-bottom: 115px;
+	font-size: 85%;
+}
+
+.copyright a {
+ 	font-weight: normal;
+ 	text-transform: none;
+}
