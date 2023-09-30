@@ -1,69 +1,71 @@
+/* Author: Max Schafer, Course: DESN 340 */
+/* Knowledge Knockout styling*/
 
-.arrow {
-    position: relative;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-top: 10px solid #000;
-    border-bottom: 10px solid #000;
-    animation: growAndCurve 5s infinite;
-  }
-  
-  .arrow::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    right: -20px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid #000;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-  }
-  
-  @keyframes growAndCurve {
-    0%, 100% {
-      transform: translateX(0) rotate(0);
-    }
-    25% {
-      transform: translateX(99vw) rotate(0);
-    }
-    50% {
-      transform: translateX(99vw) rotate(180deg);
-    }
-    75% {
-      transform: translateX(0) rotate(180deg);
-    }
-  }
-  
-  
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Foldit:wght@700&family=Grandstander&family=Kanit:wght@100&family=Tomorrow:ital,wght@0,100;0,200;0,500;0,800;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;1,900&display=swap');
 
-.wheel {
-    width: 100px;
-    height: 100px;
-    border-radius: 40%;
-    border: 5px solid black;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    /* background: url('wheel.png') no-repeat center; Add a wheel image background */
-    background-size: contain;
-    animation: spin infinite 5s linear; /* Adjust the spinning speed by changing 5s to another duration */
-  }
+/* element specific styling */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e71f82;
+}
 
-  .wheel > span {
-    text-align: center;
-    position: relative;
-    top: 40px;
-    left: 40px;
-  }
+header {
+  background-color: red;
+}
+
+body > header > div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: -50px;
+  padding-bottom: 100px;
+  font-family: 'Grandstander', cursive;
   
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
+
+/* class styling */
+
+.header-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+}
+
+.quiz {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  border: 10px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(83, 14, 116);
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
+
+.question p {
+  margin: 0 0 10px 0;
+}
+
+.feedback {
+  display: none;
+  margin-top: 10px;
+}
+
+.correct:checked ~ .correct-feedback {
+  display: block;
+  color: green;
+}
+
+.wrong:checked ~ .wrong-feedback {
+  display: block;
+  color: red;
+}
