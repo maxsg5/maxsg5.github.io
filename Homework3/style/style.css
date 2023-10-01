@@ -26,6 +26,7 @@ body > header > div > img {
 
 h1 {
   margin: -124px;
+  margin-left: -3%;
   padding-bottom: 108px;
   font-family: 'Grandstander', cursive;
 }
@@ -130,7 +131,7 @@ hr {
 
 #LogoBrainiac {
   position: relative;
-  right: 13%;
+  right: 40%;
   filter: drop-shadow(0px 0px 9px rgb(0, 0, 0));
 }
 
