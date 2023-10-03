@@ -105,7 +105,6 @@ hr {
 .wrong:checked ~ .wrong-feedback {
   display: block;
   color: red;
-  
 }
 
 /* ID styling */

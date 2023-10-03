@@ -14,19 +14,305 @@
 <body>
     <header class="container-fluid">
         <div class="row center">
-            <img src="./images/BrainiacLogo.png" alt="logo">
+            <div class="image-anim">
+                <img src="./images/BrainiacLogo.png" alt="logo">
+            </div>
         </div>
         <br>
-        <div class="row center logo-text">
-            <h1>
-                <span id="LogoVerticalText">Are</span>
-                <span id="LogoUpHorizontalText">you</span>
-                <span id="A">A</span>
-                <span id="Big">Big</span> 
-                <span id="LogoBrainiac">Brain?</span>
-            </h1>
+        <div class="row center">
+            <div class="logo-text-container">
+                <span id="Big">Big</span>
+                <span id="Brain">Brain?</span>
+            </div>
         </div>
     </header>
+
+    <div class="center">
+        <h2>Test your brain below</h2>
+    </div>
+    <div class="row center">
+        <div class="col-6">
+            <div class="quiz" id="Geography">
+                <h3>Geography 🌎</h3>
+                <!-- Geography quiz questions taken from https://www.jetpunk.com/quizzes/multiple-choice-geography-1 -->
+                <hr>
+                <div class="question">
+                    <p>Which of these U.S. states does NOT border Canada?</p>
+
+                    <input type="radio" id="indiana" name="q1" class="correct">
+                    <label for="indiana">Indiana</label><br>
+
+                    <input type="radio" id="alaska" name="q1" class="wrong">
+                    <label for="alaska">Alaska</label><br>
+
+                    <input type="radio" id="maine" name="q1" class="wrong">
+                    <label for="maine">Maine</label><br>
+
+                    <input type="radio" id="minnesota" name="q1" class="wrong">
+                    <label for="minnesota">Minnesota</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>Which one of these countries is NOT in Central America?</p>
+
+                    <input type="radio" id="belize" name="q2" class="wrong">
+                    <label for="belize">Belize</label><br>
+
+                    <input type="radio" id="honduras" name="q2" class="wrong">
+                    <label for="honduras">Honduras</label><br>
+
+                    <input type="radio" id="panama" name="q2" class="wrong">
+                    <label for="panama">Kyoto</label><br>
+
+                    <input type="radio" id="suriname" name="q2" class="correct">
+                    <label for="suriname">Suriname</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>Which of these mountain ranges is NOT in Europe?</p>
+
+                    <input type="radio" id="alps" name="q3" class="wrong">
+                    <label for="alpts">The Alps</label><br>
+
+                    <input type="radio" id="atlas" name="q3" class="correct">
+                    <label for="atlas">Atlas Mountains</label><br>
+
+                    <input type="radio" id="carpathian" name="q3" class="wrong">
+                    <label for="carpathian">Carpathian Mountains</label><br>
+
+                    <input type="radio" id="pyrenees" name="q3" class="wrong">
+                    <label for="pyrenees">The Pyrenees</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="quiz" id="Science">
+                <h3>Science 🧪 </h3>
+                <!--Science quiz questions obtained from https://www.jetpunk.com/quizzes/science-multiple-choice-1-->
+                <hr>
+                <div class="question">
+                    <p>Which of these units would you use to measure the total amount of energy it takes to lift a
+                        weight a
+                        certain distance?</p>
+                    <input type="radio" id="joule" name="q4" class="correct">
+                    <label for="joule">Jouel</label><br>
+
+                    <input type="radio" id="kilogram" name="q4" class="wrong">
+                    <label for="kilogram">Kilogram</label><br>
+
+                    <input type="radio" id="watt" name="q4" class="wrong">
+                    <label for="watt">Watt</label><br>
+
+                    <input type="radio" id="calorie" name="q4" class="wrong">
+                    <label for="calorie">Calorie</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>What element do organic compounds contain?</p>
+                    <input type="radio" id="oxygen" name="q5" class="wrong">
+                    <label for="oxygen">Oxygen</label><br>
+
+                    <input type="radio" id="hydrogen" name="q5" class="wrong">
+                    <label for="hydrogen">Hydrogen</label><br>
+
+                    <input type="radio" id="carbon" name="q5" class="correct">
+                    <label for="carbon">Carbon</label><br>
+
+                    <input type="radio" id="nitrogen" name="q5" class="wrong">
+                    <label for="nitrogen">Nitrogen</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>What is Andromeda?</p>
+                    <input type="radio" id="array" name="q6" class="wrong">
+                    <label for="array">An array of radio telescopes</label><br>
+
+                    <input type="radio" id="bactieria" name="q6" class="wrong">
+                    <label for="bacteria">A bacteria that can cause death</label><br>
+
+                    <input type="radio" id="element" name="q6" class="wrong">
+                    <label for="element">An element of the Periodic Table</label><br>
+
+                    <input type="radio" id="galaxy" name="q6" class="correct">
+                    <label for="galaxy">The nearest major galaxy to the Milky Way</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center">
+        <div class="col-6">
+            <div class="quiz" id="Literature">
+                <h3>Literature 📖 </h3>
+                <!-- Literature questions obtained from https://www.jetpunk.com/user-quizzes/121311/literature-multiple-choice-1 -->
+                <hr>
+                <div class="question">
+                    <p>What did the raven say in Edgar Allan Poe's poem "The Raven"?</p>
+                    <input type="radio" id="pox" name="q7" class="wrong">
+                    <label for="pox">A pox on both your houses</label><br>
+
+                    <input type="radio" id="can" name="q7" class="wrong">
+                    <label for="can">Can I have some more, please?</label><br>
+
+                    <input type="radio" id="caw" name="q7" class="wrong">
+                    <label for="caw">Caw!</label><br>
+
+                    <input type="radio" id="nevermore" name="q7" class="correct">
+                    <label for="nevermore">Nevermore</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>Which of the following WASN'T written by Jane Austen?</p>
+                    <input type="radio" id="emma" name="q8" class="wrong">
+                    <label for="emma">Emma</label><br>
+
+                    <input type="radio" id="pride" name="q8" class="wrong">
+                    <label for="pride">Pride and Prejudice</label><br>
+
+                    <input type="radio" id="sense" name="q8" class="wrong">
+                    <label for="sense">Sense and Sensibility</label><br>
+
+                    <input type="radio" id="wuthering" name="q8" class="correct">
+                    <label for="wuthering">Wuthering Heights</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>In the story "Maltilda" by Roald Dahl, what supernatural power does Matilda have?</p>
+                    <input type="radio" id="precognition" name="q9" class="wrong">
+                    <label for="precognition">Precognition</label><br>
+
+                    <input type="radio" id="telekinesis" name="q9" class="correct">
+                    <label for="telekinesis">Telekinesis</label><br>
+
+                    <input type="radio" id="timetravel" name="q9" class="wrong">
+                    <label for="timetravel">Timetravel</label><br>
+
+                    <input type="radio" id="telepathy" name="q9" class="wrong">
+                    <label for="telepathy">Telepathy</label>
+
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain">
+                    </div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="quiz" id="Movies">
+                <h3>Movies 📽️ </h3>
+                <hr>
+                <div class="question">
+                    <p>What was the first movie in the Marvel Cinematic Universe?</p>
+                    <input type="radio" id="spiderman" name="q10" class="wrong">
+                    <label for="spiderman">Spiderman</label><br>
+    
+                    <input type="radio" id="ironman" name="q10" class="correct">
+                    <label for="ironman">Iron Man</label><br>
+    
+                    <input type="radio" id="avengers" name="q10" class="wrong">
+                    <label for="avengers">The Avengers</label><br>
+    
+                    <input type="radio" id="batman" name="q10" class="wrong">
+                    <label for="batman">Batman</label>
+    
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain"></div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>Which of the following is filmmaker Michael Bay known for?</p>
+                    <input type="radio" id="romantic" name="q11" class="wrong">
+                    <label for="romantic">Romantic comedy</label><br>
+    
+                    <input type="radio" id="costume" name="q11" class="wrong">
+                    <label for="costume">Fanciful costume design</label><br>
+    
+                    <input type="radio" id="western" name="q11" class="wrong">
+                    <label for="western">Sweeping Western landscapes</label><br>
+    
+                    <input type="radio" id="boom" name="q11" class="correct">
+                    <label for="boom">Explosions</label>
+    
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain"></div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+                <br>
+                <hr>
+                <div class="question">
+                    <p>In the movie "Frozen", who is Olaf?</p>
+                    <input type="radio" id="reindeer" name="q12" class="wrong">
+                    <label for="reindeer">A reindeer</label><br>
+    
+                    <input type="radio" id="knight" name="q12" class="wrong">
+                    <label for="knight">A knight</label><br>
+    
+                    <input type="radio" id="snowman" name="q12" class="correct">
+                    <label for="snowman">A snowman</label><br>
+    
+                    <input type="radio" id="ghost" name="q12" class="wrong">
+                    <label for="ghost">A ghost</label>
+    
+                    <div class="feedback correct-feedback">Correct! <img src="./images/bigbrain.gif" alt="bigbrain"></div>
+                    <!--gif from https://giphy.com/stickers/brain-big-brainer-Xyu4KhsMu3yxy1VSJz-->
+                    <div class="feedback wrong-feedback">Wrong! Try again!</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
 
 </body>
 
