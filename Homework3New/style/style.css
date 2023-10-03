@@ -10,7 +10,7 @@ html {
     background-color: #300b4e;
 }
 
-.image-anim:hover {
+img:hover {
     animation: hover 2s linear infinite;
 }
 
