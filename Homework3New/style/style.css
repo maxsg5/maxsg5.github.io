@@ -22,7 +22,7 @@ h2 {
 hr {
     border: 5px solid #e71f82;
     border-radius: 5px;
-  }
+}
 
 
 /* class styling */
@@ -84,35 +84,35 @@ hr {
 
 #Geography {
     border-color: aqua;
-  }
-  
-  #Geography > hr {
+}
+
+#Geography>hr {
     border-color: aqua;
-  }
-  
-  #Science {
+}
+
+#Science {
     border-color: green;
-  }
-  
-  #Science > hr {
+}
+
+#Science>hr {
     border-color: green;
-  }
-  
-  #Literature {
+}
+
+#Literature {
     border-color: rgb(255, 81, 0);
-  }
-  
-  #Literature > hr {
+}
+
+#Literature>hr {
     border-color: rgb(255, 81, 0);
-  }
-  
-  #Movies {
+}
+
+#Movies {
     border-color: rgb(238, 255, 4);
-  }
-  
-  #Movies > hr {
+}
+
+#Movies>hr {
     border-color: rgb(238, 255, 4);
-  }
+}
 
 #Big {
     position: absolute;
@@ -170,16 +170,6 @@ hr {
         transform: rotateZ(0deg);
     }
 }
-
-/* @keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-} */
 
 @keyframes translateLeft {
     0% {
