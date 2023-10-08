@@ -1,0 +1,72 @@
+/* Author: Max Schafer, Course: DESN 340 */
+/* Bird styling */
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/birdsGif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; /* Place the background behind the content */
+    animation: TintBackground 1s 2s forwards;
+}
+
+
+.custom-button {
+    opacity: 0.8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    background-image: url(../images/istockphoto-957416280-612x612.jpg); /* image obtained from https://www.istockphoto.com/vector/binoculars-vector-isolated-gm957416280-261430134 */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 50px;
+    text-decoration: solid;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    animation: Reveal 2s linear(0 0%, -0.01 86.49%, 1 100%);
+    z-index: 100;
+    margin-top: 10%;
+    height: 300px;
+    width: 30%;
+}
+
+.custom-button:hover {
+    background-color: #555;
+}
+
+
+#MainPage {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes Reveal {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes TintBackground {
+    from {
+        filter: none;
+    }
+    to {
+        filter: brightness(0.4); 
+    }
+
+}
