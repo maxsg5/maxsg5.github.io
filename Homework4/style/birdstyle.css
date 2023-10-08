@@ -20,12 +20,31 @@ body {
     min-height: 100vh;
 }
 
+a {
+    position: inherit;
+    opacity: 0.8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: solid;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
 .container {
     max-width: 1200px;
     margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 50px;
+    column-gap: 150px;
 }
 
 .bird-card {
@@ -35,7 +54,7 @@ body {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .bird-card:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 .bird-card img {
