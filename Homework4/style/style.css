@@ -18,37 +18,43 @@ body::before {
 
 
 .custom-button {
+    grid-area: Button;
     opacity: 0.8;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    color: #fff;
     background-color: #333;
     background-image: url(../images/istockphoto-957416280-612x612.jpg); /* image obtained from https://www.istockphoto.com/vector/binoculars-vector-isolated-gm957416280-261430134 */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: none;
     border-radius: 50px;
-    text-decoration: solid;
-    font-size: 16px;
-    transition: background-color 0.3s ease-in-out;
     animation: Reveal 2s linear(0 0%, -0.01 86.49%, 1 100%);
     z-index: 100;
     margin-top: 10%;
-    height: 300px;
-    width: 30%;
+    height: 250px;
+    width: 250px;
 }
 
 .custom-button:hover {
-    background-color: #555;
+    transform: scale(1.4);
 }
 
 
 #MainPage {
+    margin-top: 10%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+#MainPage > span {
+    color: white;
+    text-align: center;
+    background-color: rgba(63, 63, 63, 0.5);
+    border-radius: 50px;
+    font-size: 50px;
+    height: 55px;
+    width: 500px;
+    animation: Reveal 2s linear(0 0%, -0.01 86.49%, 1 100%);
 }
 
 @keyframes Reveal {
