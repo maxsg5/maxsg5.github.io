@@ -17,7 +17,7 @@ body::before {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1; /* Place the background behind the content */
+    z-index: -1; 
     animation: TintBackground 1s 2s forwards;
 }
 
