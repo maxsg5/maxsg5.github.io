@@ -1,0 +1,117 @@
+/* STYLE SHEET */
+
+
+/* universal styling first */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 400;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 28px;
+	line-height: 1.3;
+	font-weight: 500;
+}
+
+
+/* Navigation Styling */
+
+ ul {
+ 	list-style-type: none;
+ }
+
+ li {
+  	display: inline;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Here is the header where will use flexbox and CSS grid together */
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* Hero section Styling */
+
+.hero-grid {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: auto auto;
+}
+
+#hero-blurb {
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+#hero-img {
+	grid-column-start: 2;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+#hello {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+
+#hello h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#advin {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+
+
+
+
+
+
+
+
+
