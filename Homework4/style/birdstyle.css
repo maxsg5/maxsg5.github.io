@@ -1,6 +1,11 @@
 /* Author: Max Schafer, Course: DESN 340 */
 /* Bird styling Page 2 */
 
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Grandstander:ital,wght@0,400;1,900&display=swap');
+
+/* Element styling */
+
 body::before {
     content: "";
     position: absolute;
@@ -18,6 +23,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
+    font-family: 'Exo 2', sans-serif;
 }
 
 a {
@@ -37,6 +43,8 @@ a {
 a:hover {
     background-color: #555;
 }
+
+/* Class styling */
 
 .container {
     max-width: 1200px;
@@ -78,7 +86,7 @@ a:hover {
     color: #777;
 }
 
-
+/* Animations */
 
 @keyframes HueShift {
     0% {
