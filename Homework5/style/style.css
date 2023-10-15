@@ -31,6 +31,10 @@ body > section.container.mt-5.position-relative > div > img {
     font-family: 'VT323', monospace;
 }
 
+#RestartButton {
+    font-family: 'VT323', monospace;
+}
+
 #LeftDoor {
     left: 32%;
     font-family: 'VT323', monospace;
