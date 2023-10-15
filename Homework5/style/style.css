@@ -22,7 +22,7 @@ h2 {
 }
 
 body > section.container.mt-5.position-relative > div > img {
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 
 /* ID styling */
