@@ -1,3 +1,5 @@
+/* Author: Max Schafer, Course: DESN 340 */
+/* Choose your own adventure styling */
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=VT323&display=swap');
@@ -5,29 +7,36 @@
 /* Element styling */
 body {
     background-color: black;
-    /* background-color: #487346; */
-    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E"); */
-    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23006d5e' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E"); */
-    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1025%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M136.82903768654757 102.66666666666663L38.003436517428526-62.16237101988093-45.99656348257142 83.32989681590476z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-68.03309788588595 101.14435569428869L84.22661033627122 172.14422366672625 155.22647830870878 19.88451544456906 2.966770086551591-51.11535252786848z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M28.557056926496266 185.10889627630874L169.4537123413275 93.60953839378422 77.95435445880298-47.28711702104701-62.942300956028255 44.21224086147751z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1342.795531132195-35.69013378881605L1264.9937936407873 44.87592384911288 1424.7437488433845 121.29550126725995z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1449.9966329107442-58.30952132988163L1287.7210940941807-14.827921752658149 1331.2026936714042 147.44761706390534 1493.4782324879677 103.96601748668185z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1262.4995581882813 107.57387770741502L1418.2664457555015 170.50778540128823 1481.2003534493747 14.740897834067965 1325.4334658821545-48.193009859805244z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M14.795531132195123 412.309866211184L-63.00620635921258 492.87592384911295 96.74374884338468 569.29550126726z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-32.32073399441876 602.0901124931017L135.44902784434964 593.2976718442872-41.11317464323341 434.3203506543333z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M74.36991211022286 634.7087164319385L175.47483599976692 500.5379507439932 41.304070311821675 399.43302685444917-59.80085357772239 533.6037925423943z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1343.21183771811 629.5330555666054L1492.9009337817558 553.2626516103616 1416.630529825512 403.57355554671574 1266.9414337618662 479.8439595029596z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1343.2118377181098 378.46694443339464L1266.941433761866 528.1560404970405 1416.6305298255118 604.4264444532844 1492.9009337817556 454.7373483896385z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1515.912859090289 508.60649854528936L1401.3371345997891 385.73907667326876 1278.4697127277686 500.3148011637685 1393.0454372182683 623.1822230357891z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1025'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+    background-color: #487346;
 }
 
 header {
-    /* background-color: #1b7f70; */
     background-color: rgb(42, 42, 42);
     background-attachment: fixed;
     background-size: cover;
-    /* background-image: url("../images/gieoxAG7T.gif"); image obtained from https://clipart-library.com/clipart/gieoxAG7T.htm */
 }
 
-body > header > img {
-    /* border: solid; */
+h2 {
+    font-family: 'VT323', monospace; 
+    text-align: center;
+}
+
+body > section.container.mt-5.position-relative > div > img {
+    filter: brightness(0.7);
 }
 
 /* ID styling */
 
-#Background0 {
-    width: 100%;
-    height: 100%;
+#StartButton {
+    font-family: 'VT323', monospace;
 }
 
+#LeftDoor {
+    left: 32%;
+    font-family: 'VT323', monospace;
+}
 
+#RightDoor {
+    left: 70%;
+    font-family: 'VT323', monospace;
+}
