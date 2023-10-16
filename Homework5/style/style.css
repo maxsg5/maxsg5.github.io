@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: rgb(42, 42, 42);
+    background-color: #1e301d;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -26,9 +26,10 @@ body > section.container.mt-5.position-relative > div > img {
 }
 
 /* Class styling */
-.card {
+.card-img-top {
     border-style: double;
     border-width: 20px;
+    border-color: #487346;
 }
 
 /* ID styling */
@@ -41,12 +42,12 @@ body > section.container.mt-5.position-relative > div > img {
     font-family: 'VT323', monospace;
 }
 
-#LeftDoor {
+#LeftChoice {
     left: 32%;
     font-family: 'VT323', monospace;
 }
 
-#RightDoor {
+#RightChoice {
     left: 70%;
     font-family: 'VT323', monospace;
 }
