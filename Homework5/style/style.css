@@ -25,6 +25,12 @@ body > section.container.mt-5.position-relative > div > img {
     filter: brightness(0.5);
 }
 
+/* Class styling */
+.card {
+    border-style: double;
+    border-width: 20px;
+}
+
 /* ID styling */
 
 #StartButton {
