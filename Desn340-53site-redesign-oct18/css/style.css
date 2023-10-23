@@ -201,7 +201,10 @@ header ul {
 }
 
 #hero-chunk {
-	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 900px;
 	color: #fff;
 	margin-top: 200px;
 	margin-left: 100px;
