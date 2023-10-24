@@ -557,3 +557,16 @@ footer li {
 	flex-direction: column;
 	text-align: center;
 }
+
+.feature-icon1{
+	height: 135px;
+    width: 135px;
+	background: url('../images/download.png') 0 0 no-repeat;
+	background-position: 50% -194px;
+	display: block;
+}
+  
+#SurfacePressure:hover {
+	color: pink;
+}
+
