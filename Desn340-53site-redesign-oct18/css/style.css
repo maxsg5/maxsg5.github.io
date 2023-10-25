@@ -525,6 +525,17 @@ footer li {
 
 /* Pencil page style and rules */
 
+#heroPencil {
+	background-image: url("../images/hero1.jpg");
+	background-size: cover;
+	background-color: red;
+	height: 50vh;
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+
+}
+
 li {
 	margin: 24px 0px
 }
@@ -632,4 +643,15 @@ li {
 
 #PeopleSection {
 	height: 100vh;
+}
+
+.CTA-Pencil {
+	background-color: #c2402f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+	margin-top: 100px;
 }
