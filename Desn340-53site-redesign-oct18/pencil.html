@@ -19,7 +19,7 @@
 
 <body>
     <!-- The header section should be the same for each page in the 53 site -->
-    <header class="container-fluid">
+    <header class="container-fluid ">
         <div class="container">
           <div class="row">
             <div class="col-md-2" id="logo"> <!-- This is where we are putting our logo -->
@@ -40,13 +40,11 @@
       <!-- First Hero section -->
       <div class="container-fluid" id="hero">
         <div class="container">
-          <div class="row">
-            <section id="hero-chunk">
-              <h1 class="tighten">Freedom of expression </h1>
-              <h5 class="tighten">Great tools inspire great ideas. Pencil by FiftyThree is the most natural and expressive way to create on iPad. Advanced technology meets beautiful design to keep you in the flow, without needing to switch tools. With Surface Pressure, Erase, Blend, and adaptive Palm Rejection, Pencil puts creative possibility in your hands.</h5>
+            <section class="d-flex justify-content-center flex-column align-items-center">
+              <h1 class="">Freedom of expression </h1>
+              <h5 class="">Great tools inspire great ideas. Pencil by FiftyThree is the most natural and expressive way to create on iPad. Advanced technology meets beautiful design to keep you in the flow, without needing to switch tools. With Surface Pressure, Erase, Blend, and adaptive Palm Rejection, Pencil puts creative possibility in your hands.</h5>
               <a href="#" class="CTA">Buy now</a>
             </section>
-          </div>
         </div> 
       </div>
 
@@ -54,18 +52,18 @@
       <div class="container-fluid features">
         <div class="container">
           <div class="row">
-            <div class="col-3 sticky">
+            <div class="col-3">
               <i id="FeatureIcons" class="feature-icon1"></i>
               <ul>
-                <li><a id="SurfacePressure" href="#">Surface Pressure</a></li>
-                <li><a id="Erase" href="#">Erase</a></li>
-                <li><a id="Blend" href="#">Blend</a></li>
-                <li><a id="PalmRejection" href="#">Palm Rejection</a></li>
+                <li><span id="SurfacePressure">Surface Pressure</span></li>
+                <li><span id="Erase">Erase</span></li>
+                <li><span id="Blend">Blend</span></li>
+                <li><span id="PalmRejection">Palm Rejection</span></li>
               </ul>
             </div>
-            <div class="col-9 p">
-              <div class="feature-image">
-              </div>
+            <div class="col-9">
+              <img src="./images/example-surface-pressure.jpg" alt="" id="FeatureImage">
+              <p id="FeatureText" class="mt-3">Expressive from every angle. Pencil’s unique tip is shaped to create lines of all sizes without any settings. Use the point for fine details and the angled edge for broad strokes.</p>
             </div>
           </div>
         </div>
@@ -81,9 +79,10 @@
             </div>
           </div>
           <div class="row mt-5 mb-5">
-            <div class="col-4">
+            <div class="col-2">
               <span>Eraser Tip</span>
             </div>
+            <div class="col-2 arrow-left" ></div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
@@ -93,19 +92,21 @@
           </div>
           <div class="row mt-5 mb-5">
             <div class="col-4">
-              <span>Bluetooth Smart</span>
+              <p>Pencil’s certified Bluetooth Smart wireless delivers a fast, stable connection with industry-leading power conservation.</p>
             </div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
-            <div class="col-4">
-              <p>Pencil’s certified Bluetooth Smart wireless delivers a fast, stable connection with industry-leading power conservation.</p>
+            <div class="col-1 arrow-right" ></div>
+            <div class="col-1">
+              <span>Bluetooth Smart</span>
             </div>
           </div>
           <div class="row mt-5 mb-5">
-            <div class="col-4">
+            <div class="col-2">
               <span>Seamless body</span>
             </div>
+            <div class="col-2 arrow-left" ></div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
@@ -115,19 +116,21 @@
           </div>
           <div class="row mt-5 mb-5">
             <div class="col-4">
-              <span>Lasting Power</span>
+              <p>Pencil’s battery charges off any USB port in under 90 minutes and delivers power for up to a month of normal use on a single charge.</p>
             </div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
-            <div class="col-4">
-              <p>Pencil’s battery charges off any USB port in under 90 minutes and delivers power for up to a month of normal use on a single charge.</p>
+            <div class="col-1 arrow-right" ></div>
+            <div class="col-2">
+              <span>Lasting Power</span>
             </div>
           </div>
           <div class="row mt-5 mb-5">
-            <div class="col-4">
+            <div class="col-2">
               <span>Accurate sensing</span>
             </div>
+            <div class="col-1 arrow-left" ></div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
@@ -137,13 +140,14 @@
           </div>
           <div class="row mt-5 mb-5">
             <div class="col-4">
-              <span>Tapered Tip</span>
+              <p>Pencil’s durable tip has been carefully friction-tuned to feel great on a screen. Use both the tip and edge to draw. Extra tip and eraser included.</p>
             </div>
             <div class="col-4">
               <span>Image goes here</span>
             </div>
-            <div class="col-4">
-              <p>Pencil’s durable tip has been carefully friction-tuned to feel great on a screen. Use both the tip and edge to draw. Extra tip and eraser included.</p>
+            <div class="col-1 arrow-right" ></div>
+            <div class="col-2">
+              <span>Tapered Tip</span>
             </div>
           </div>
         </div> 
@@ -160,6 +164,7 @@
       <div class="container-fluid" id="PeopleSection">
         <div class="container mb-lg-5 text-center ">
                 <h1 class="mt-5 mb-5">Pencil to the people</h1>
+                <!-- garbage Bootstrap carousel POS -->
                 <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
@@ -186,6 +191,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                
                 <h1 class="mt-5">khkljkl</h1>
         </div>
       </div>
