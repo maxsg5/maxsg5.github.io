@@ -561,8 +561,9 @@ footer li {
 .feature-icon1{
 	height: 135px;
     width: 135px;
-	background: url('../images/download.png') 0 0 no-repeat;
-	background-position: 50% -194px;
+	background: url('../images/pencil-icons-sprite-surface.svg') 0 0 no-repeat;
+	background-position: 60% 3px;
+	transform: scale(0.5);
 	display: block;
 }
   
@@ -570,3 +571,43 @@ footer li {
 	color: pink;
 }
 
+#Erase:hover {
+	color: pink;
+}
+
+#Blend:hover {
+	color: pink;
+}
+
+#PalmRejection:hover {
+	color: pink;
+}
+
+#TypeSection {
+	height: 100vh;
+	background-image: url(../images/material-graphite@1.5x.jpg);
+}
+
+#Walnut {
+	background-color: #ffa600;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+}
+
+#Aluminum{
+	background-color: #1e1e1e;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+}
+
+#PeopleSection {
+	height: 100vh;
+}
