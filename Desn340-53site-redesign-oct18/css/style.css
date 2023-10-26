@@ -526,7 +526,7 @@ footer li {
 /* Pencil page style and rules */
 
 #heroPencil {
-	background-image: url("../images/hero1.jpg");
+	background-image: url("../images/fabian-centeno-7osiV1AFIF8-unsplash.jpg");
 	background-size: cover;
 	background-color: red;
 	height: 50vh;
@@ -536,8 +536,8 @@ footer li {
 
 }
 
-li {
-	margin: 24px 0px
+#FeatureList li {
+	margin: 60px 0px
 }
 
 .feature-icon {
@@ -564,7 +564,7 @@ li {
 }
 
 .features {
-
+	
 }
 
 
@@ -576,8 +576,9 @@ li {
 }
 
 .feature-icon1{
-	height: 263px;
-    width: 333px;
+	margin-top: 50px;
+	height: 119px;
+    width: 251px;
 	background: url('../images/pencil-icons-sprite-surface.svg') 0 0 no-repeat;
 	background-position: 60% 3px;
 	/* transform: scale(0.5); */
@@ -617,8 +618,9 @@ li {
 }
 
 #TypeSection {
-	height: 100vh;
+	height: 88vh;
 	background-image: url(../images/material-graphite@1.5x.jpg);
+	background-size: cover;
 }
 
 #Walnut {
@@ -643,6 +645,10 @@ li {
 
 #PeopleSection {
 	height: 100vh;
+}
+
+#FeatureText {
+	margin-top: 63px;
 }
 
 .CTA-Pencil {
