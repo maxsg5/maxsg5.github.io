@@ -591,7 +591,7 @@ footer li {
 	/* background-color: rgb(0, 0, 0); */
 	border-top: solid;
 	height: 6px;
-    width: 203px;
+	width: 255px;
 }
 
 .arrow-right {
@@ -601,7 +601,7 @@ footer li {
 	border-top: solid;
 	/* transform: translateY(20px); */
 	height: 6px;
-    width: 203px;
+    width: 166px;
 }
   
 #SurfacePressure:hover {
@@ -672,7 +672,7 @@ footer li {
 .parts-grid {  
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 0.5fr);
 	gap: 0px 0px;
 	grid-auto-flow: row;
 	grid-template-areas:
@@ -683,6 +683,15 @@ footer li {
 	  ". . ."
 	  ". . .";
   }
+
+.part-left {
+	margin-top: 50px;
+}
+
+.parts-grid p {
+	margin-top: 50px;
+
+}
   
 .part-left span, .part-left .arrow-left {
     display: inline-block;
@@ -691,4 +700,20 @@ footer li {
 .part-right span, .part-right .arrow-right {
     display: inline-block;
     /* vertical-align: middle; */
+}
+
+#PencilImage1 {
+	background-image: url("../images/sprite-parts@2x.png");
+	background-position: -48px 4445px;
+	background-size: cover;
+	transform: scale(0.5);
+
+}
+
+#PencilImage2 {
+	background-image: url("../images/sprite-parts@2x.png");
+	background-position: -48px 3445px;
+	background-size: cover;
+	height: 50vh;
+
 }
