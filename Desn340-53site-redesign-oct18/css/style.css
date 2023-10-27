@@ -670,7 +670,18 @@ footer li {
 	padding-top: 100px;
 	color: white;
 	text-align: center;
+}
 
+#heroPencil > div > section > h5 {
+	font-family: 'Poppins', sans-serif;
+}
+
+#CreativitySection > h5 {
+	font-family: 'Poppins', sans-serif;
+}
+
+#PeopleSection > div > h5 {
+	font-family: 'Poppins', sans-serif;
 }
 
 #FeatureList li {
