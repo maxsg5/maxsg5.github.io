@@ -1,3 +1,6 @@
+//Script for pencil redesign page
+
+//set up variables linked to elements on the page
 var icons = document.getElementById("FeatureIcons");
 var SurfacePressure = document.getElementById("SurfacePressure");
 var Erase = document.getElementById("Erase");
@@ -9,6 +12,8 @@ var TypeSection = document.getElementById("TypeSection");
 var AluminumButton = document.getElementById("Aluminum");
 var WalnutButton = document.getElementById("Walnut");
 
+
+//mouseover functions to handle image swapping and text changes.
 SurfacePressure.onmouseover = function () {
     icons.style.backgroundPositionY = "2px";
     FeatureText.innerHTML = "Expressive from every angle. Pencil’s unique tip is shaped to create lines of all sizes without any settings. Use the point for fine details and the angled edge for broad strokes.";
