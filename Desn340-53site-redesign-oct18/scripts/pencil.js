@@ -48,3 +48,34 @@ AluminumButton.onmouseover = function () {
 }
 
 
+
+//Code to fix stuff Alex gave us
+
+// var Search = document.getElementById("search");
+
+// //media query
+// const mediaQuery390px = window.matchMedia('(max-width: 390px)');
+
+// //if page loads with width <= 390px
+// if (mediaQuery390px.matches) {
+//     PalmRejection.onmouseover = function () {
+//         icons.style.backgroundPositionY = "-170px";
+//         FeatureText.innerHTML = "Our adaptive palm rejection instantly knows whether it’s your hand or Pencil touching the page. Rest your hand on the screen, write from any angle. No calibration or setup. You’ll forget you’re creating on a tablet.";
+//         FeatureImage.src = "./images/example-palm-rejection.jpg";
+//         //scroll to FeatureImage
+//         FeatureImage.scrollIntoView();
+
+//     }
+// }
+
+// //listen for changes
+// mediaQuery390px.addEventListener('change', (e) => {
+//     if (e.matches) {
+
+//     } else {
+    
+//     }
+// });
+
+
+

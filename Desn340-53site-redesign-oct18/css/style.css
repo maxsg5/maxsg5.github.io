@@ -573,7 +573,6 @@ footer li {
 	color: #fff;
 	padding: 1em 2.5em;
 	border-radius: 2em;
-	margin-top: 100px;
 }
 
 .CTA-Pencil-bot {
@@ -769,4 +768,139 @@ footer li {
 #PartsSection {
 	color: white;
 	background: linear-gradient(to bottom, #1a1817, #2d2b28 20%, #2d2b28 68%, #23221f);
+}
+
+#TypeSection > div {
+	margin-bottom: 10%;
+}
+
+
+/* Media queries */
+
+
+@media (max-width: 999px) {
+    header ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		/* margin-top: -60px; */
+	}
+
+	#heroPencil {
+		height: fit-content;
+		text-align: center;
+		font-size: small;
+	}
+
+	.arrow-left {
+		position: relative;
+		display: block;
+		border-top: solid;
+		height: 6px;
+		width: 186px;
+	}
+
+	#TypeSection > div {
+		margin-bottom: 10%;
+	}
+
+}
+
+@media (max-width: 558px) {
+	
+		#heroPencil > div > section > h5 {
+			font-size: medium;
+		}
+		header ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			/* margin-top: -60px; */
+		}
+	
+		#heroPencil {
+			height: fit-content;
+			text-align: center;
+			font-size: small;
+		}
+	
+		.arrow-left {
+			position: relative;
+			display: block;
+			border-top: solid;
+			height: 6px;
+			width: 90px;
+		}
+	
+		#PartsSection > div.container.d-flex.justify-content-center > div > div.margin-top-50 > span {
+			font-size: medium;
+		}
+	
+		#PartsSection > div.container.d-flex.justify-content-center > div > div.margin-top-200 > span {
+			font-size: medium;
+		}
+
+		body > div.container-fluid.features > div > div > div.col-sm-3 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#FeatureList li {
+			margin: 0px 0px;
+		}
+}
+
+@media (max-width: 390px) {
+
+	#heroPencil > div > section > h5 {
+		font-size: small;
+	}
+	header ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		/* margin-top: -60px; */
+	}
+
+	#heroPencil {
+		
+		text-align: center;
+		font-size: small;
+	}
+
+	.arrow-left {
+		position: relative;
+		display: block;
+		border-top: solid;
+		height: 6px;
+		width: 90px;
+	}
+
+	#PartsSection > div.container.d-flex.justify-content-center > div > div.margin-top-50 > span {
+		font-size: medium;
+	}
+
+	#PartsSection > div.container.d-flex.justify-content-center > div > div.margin-top-200 > span {
+		font-size: medium;
+	}
+	.arrow-left {
+		position: relative;
+		display: block;
+		border-top: solid;
+		height: 6px;
+		width: 90px;
+	}
+
+	body > div.container > div > div:nth-child(1) {
+		font-size: medium;
+	}
+
+	body > div.container > div > div.col-4.d-flex.flex-column.justify-content-center.align-items-center {
+		font-size: medium;
+	}
 }
