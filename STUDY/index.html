@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Study Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .example {
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>1. Inline vs Block Elements</h2>
+<ul>
+    <li><code>Inline Elements</code>: e.g., <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code></li>
+    <li><code>Block Elements</code>: e.g., <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code></li>
+</ul>
+
+<h2>2. Semantic Tags</h2>
+<p>Tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> that convey meaning.</p>
+
+<h2>3. HTML Indenting and Nesting Structure</h2>
+<div class="example">
+    <code>&lt;div&gt;</code><br>
+    &nbsp;&nbsp;<code>&lt;p&gt;This is a nested element.&lt;/p&gt;</code><br>
+    <code>&lt;/div&gt;</code>
+</div>
+
+<h2>4. Normalize</h2>
+<p>A CSS file that ensures consistency across browsers.</p>
+
+<h2>5. CSS Selectors</h2>
+<ul>
+    <li><code>p</code>: selects all <code>&lt;p&gt;</code> elements.</li>
+    <li><code>.className</code>: for <code>class="className"</code>.</li>
+    <li><code>#idName</code>: for <code>id="idName"</code>.</li>
+</ul>
+
+<h2>6. Specificity and Combinators</h2>
+<ul>
+    <li><code>div p</code>: selects all <code>&lt;p&gt;</code> inside a <code>&lt;div&gt;</code>.</li>
+    <li><code>div &gt; p</code>: direct children only.</li>
+</ul>
+
+<h2>7. Child Element Selectors</h2>
+<p>Selects direct children. E.g., <code>div &gt; p</code>.</p>
+
+<h2>8. Pseudo-classes</h2>
+<p>Define special states like <code>:hover</code>.</p>
+
+<h2>9. Techniques for Centering Content</h2>
+<ul>
+    <li>Horizontal: <code>margin: auto</code> with width.</li>
+    <li>Vertical: Flexbox or CSS Grid.</li>
+</ul>
+
+<h2>10. Classes and IDs</h2>
+<ul>
+    <li><code>Class</code>: reusable styling.</li>
+    <li><code>ID</code>: unique styling or scripting.</li>
+</ul>
+
+<h2>11. Bootstrap Layout Classes</h2>
+<ul>
+    <li><code>.container</code> or <code>.container-fluid</code> for wrapping content.</li>
+    <li><code>.row</code> for horizontal groups.</li>
+    <li><code>.col-*</code> for columns.</li>
+</ul>
+
+</body>
+</html>
