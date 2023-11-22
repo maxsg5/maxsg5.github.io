@@ -52,19 +52,20 @@ header .row {
 
 header ul {
 	list-style: none;
-	margin: 10px 0 0 150px;
+	margin: 10px 0 0 140px;
 	padding: 0;
 	color: black;
 }
 
 /* ----- we are going to use floats for this example ---- */
 header li {
-
+	float: left;
+	margin-left: 30px;
 }
 
 /* adjust spacing a bit */
 header .added-margin {
-
+	margin-top: 10px;
 }
 
 header li img {
@@ -100,20 +101,27 @@ header li.dropdown {
 
 /* add some selectors to set up the dropdown content */
 .dropdown-content {
-	
-
+	position: absolute;
+	min-width: 86px;
+	display: none;
 }
 
 .dropdown-content a {
-	
-	}
+	display: block;
+	margin-top: 10px;
+	padding: 3px 3px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-align: center;
+}
 
 .dropdown-content a:hover {
+	background-color: peachpuff;
 	
 }
 
 .dropdown:hover .dropdown-content {
-	
+	display: block;
 }
 
 
@@ -127,6 +135,11 @@ header li.dropdown {
 	background-attachment: absolute;
 	background-color: #fff;
 	height: 700px
+}
+
+#hero a {
+	color: red;
+
 }
 
 /* SECTION 1 STYLING */

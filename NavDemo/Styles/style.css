@@ -1,0 +1,98 @@
+/* CSS for project 4 
+
+Colors
+
+Primary brand color
+
+Secondary brand color
+
+Button, CTA color
+
+Font choices
+
+
+Bold titles
+
+Regular text
+
+Links
+
+Headings
+
+Subheadings
+
+*/
+
+
+/* box model fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Micro clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+* { margin: 0; padding: 0; }
+
+
+/* Global style rules */
+
+/* Type hierarchy styling */
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 { 
+
+}
+
+h6 {
+
+}
+
+a {
+    /* background-color: red; */
+}
+
+
+/* Homepage Styles */
+
+/* About Us Styles */
+
+
+/* Header Styles */
+header nav {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+/* Footer Styles */
