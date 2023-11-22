@@ -1,0 +1,177 @@
+/* GLOBAL STYLING */
+
+/* rainbow animation from https://gist.github.com/pahund/2479514 */
+@keyframes rainbow {
+	from, to { box-shadow: 0 0 15px 0 red }
+	16% { box-shadow: 0 0 15px 0  yellow }
+	32% { box-shadow: 0 0 15px 0  green }
+	48% { box-shadow: 0 0 15px 0  aqua }
+	64% { box-shadow: 0 0 15px 0  blue }
+	80% { box-shadow: 0 0 15px 0  fuchsia }
+}
+/* Box Model fix */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+/* Micro clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+* { margin: 0; padding: 0; }
+
+
+html {
+	height: 100%;
+}
+
+
+/* HEADER STYLING */
+
+header .row {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+header ul {
+	list-style: none;
+	margin: 10px 0 0 150px;
+	padding: 0;
+	color: black;
+}
+
+/* ----- we are going to use floats for this example ---- */
+header li {
+
+}
+
+/* adjust spacing a bit */
+header .added-margin {
+
+}
+
+header li img {
+	margin: 0;
+	height: 10px;
+} 
+
+div a {
+	color: peachpuff;
+}
+
+ul a {
+	color: black;
+	font-weight: bold;
+}
+
+header img {
+	max-height: 50px;
+}
+
+header li a, .dropbtn {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1px 7px;
+}
+
+/* ---- dropdown style stuff ---- */
+
+
+header li.dropdown {
+	display: inline-block;
+}
+
+/* add some selectors to set up the dropdown content */
+.dropdown-content {
+	
+
+}
+
+.dropdown-content a {
+	
+	}
+
+.dropdown-content a:hover {
+	
+}
+
+.dropdown:hover .dropdown-content {
+	
+}
+
+
+/** HOMEPAGE STYLING **/
+
+/* HERO STYLING */
+
+#hero {
+	background-image: url(Foliage.png);
+	background-size: contain;
+	background-attachment: absolute;
+	background-color: #fff;
+	height: 700px
+}
+
+/* SECTION 1 STYLING */
+#nextSection {
+	background-image: url(Anvil.png);
+	background-size: cover;
+	background-attachment: absolute;
+	background-color: #fff;
+	height: 700px
+}
+
+/* SECTION 2 STYLING */
+#andthenextSection {
+	background-image: url(Anvil.png);
+	background-size: initial;
+	background-attachment: absolute;
+	background-color: #fff;
+	height: 700px
+}
+
+/* button class organized outside-in style */
+
+.button {
+	display: inline-block;
+	position: fixed;
+	bottom: 30%;
+	left: 50%;
+	margin:0px 0px -50px -150px;
+
+	width: 300px;
+	height: 300px;
+
+	color: white;
+	background: black;
+	border-radius: 150px;
+	box-shadow: 0.25em 0.25em 0.5em rgba(0,0,0,0.3);
+
+	font-size: 2em;
+	font-family: Avenir, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	animation: rainbow 10s infinite;
+}
+
+.button:hover {
+	box-shadow: 0.25em 0.25em 0.5em rgba(0,0,0,0.3);
+}
