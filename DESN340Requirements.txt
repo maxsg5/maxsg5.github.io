@@ -1,0 +1,15 @@
+add wireframes and mockups for desktop and mobile
+
+
+Analyze the website/business of competitors
+
+About us shouldn't have background image
+
+Our process can be vertical stack
+
+Not convinced needs more padding around text
+
+gallery need to watch height value so it doesn't go off page.
+
+What we can offer, specifically services should be vertical list with mini carousel for each service.
+
