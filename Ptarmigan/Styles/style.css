@@ -75,9 +75,88 @@ img {
 * { margin: 0; padding: 0; }
 
 
-/* Global style rules */
+/* Global style rules=============================================== */
+/* call us box style */
+.call-box{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    margin-right: 20px;
+}
 
-/* Type hierarchy styling */
+.call-box .phone-icon{
+    background-image: url('../images/PhoneVector.svg'); 
+    width: 30px;
+    height: 31px;
+    margin-right: 10px; 
+}
+
+.contact-box .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box .phone-number {
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+/* offcanvas nav styling */
+#offcanvasNavbar {
+    background: #A8A492;
+}
+
+.offcanvas-header{
+    background-color: #332C11;
+    height: 67px;
+}
+
+.offcanvas-footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #332C11;
+    height: 67px;
+    width: 110%;
+    transform: translateX(-17px);
+    padding-right: 50px;
+}
+
+.offcanvas-footer .call-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styles */
+header nav {
+    background-color: #332C11;
+    /* color: #fff; */
+    /* padding: 1em; */
+}
+.header-links {
+    text-decoration: underline;
+    white-space: nowrap; /* Prevents wrapping to a new line */
+}
+
+.header-links a {
+    display: inline;
+    text-decoration: underline;
+    color: #FFFFFF;
+    padding: 0 0px; /* Optional: Adjusts spacing around links */
+}
+
+.header-links a:hover {
+    color: #DBCC93;
+}
+
+.header-links a:active {
+    color: #A8A492;
+}
+
+/* Type hierarchy styling=============================================== */
 
 h1 {
 
@@ -107,95 +186,19 @@ a {
     font-family: 'Red Hat Display', sans-serif;
     color: #DBCC93;
 }
-#offcanvasNavbar {
-    background: #A8A492;
-}
+
 #offcanvasNavbar > div.offcanvas-body > ul > li > a{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     color: #000000;
 }
 
-/* Homepage Styles */
-
-/* About Us Styles */
+/* Homepage Styles=============================================== */
 
 
-/* Header Styles */
-header nav {
-    background-color: #332C11;
-    /* color: #fff; */
-    /* padding: 1em; */
-}
-.header-links {
-    text-decoration: underline;
-    white-space: nowrap; /* Prevents wrapping to a new line */
-}
 
-.header-links a {
-    display: inline;
-    text-decoration: underline;
-    color: #FFFFFF;
-    padding: 0 0px; /* Optional: Adjusts spacing around links */
-}
 
-.header-links a:hover {
-    color: #DBCC93;
-}
 
-.header-links a:active {
-    color: #A8A492;
-}
-
-.call-box{
-    color: white;
-    display: inline-flex;
-    align-items: center;
-    width: 200px;
-    margin-right: 20px;
-}
-
-.call-box .phone-icon{
-    background-image: url('../images/PhoneVector.svg'); 
-    width: 30px;
-    height: 31px;
-    margin-right: 10px; 
-}
-
-.contact-box .text {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-box .phone-number {
-    font-size: 1.5em; 
-    font-weight: bold;
-}
-
-/* offcanvas nav styling */
-
-.offcanvas-header{
-    background-color: #332C11;
-    height: 67px;
-}
-
-.offcanvas-footer{
-    position: absolute;
-    bottom: 0;
-    background-color: #332C11;
-    height: 67px;
-    width: 110%;
-    transform: translateX(-17px);
-    padding-right: 50px;
-}
-
-.offcanvas-footer .call-box{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
