@@ -2,16 +2,38 @@
 
 Colors
 
-Primary brand color
+White 
+#FFFFFF;
 
-Secondary brand color
+light brown
+#DBCC93;
 
-Button, CTA color
+dirty grey
+#A8A492;
 
-Font choices
+dirty brown
+#756E56;
 
+dirt
+#423C23;
 
-Bold titles
+brown
+#332C11;
+
+black
+#000000;
+
+Font choices:
+Red Hat Display
+
+Hero Title
+color: #FFFFFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
 Regular text
 
@@ -90,10 +112,78 @@ a {
 
 /* Header Styles */
 header nav {
-    background-color: #000;
-    color: #fff;
-    padding: 1em;
+    background-color: #332C11;
+    /* color: #fff; */
+    /* padding: 1em; */
 }
+.header-links {
+    text-decoration: underline;
+    white-space: nowrap; /* Prevents wrapping to a new line */
+}
+
+.header-links a {
+    display: inline;
+    text-decoration: underline;
+    color: #FFFFFF;
+    padding: 0 0px; /* Optional: Adjusts spacing around links */
+}
+
+.header-links a:hover {
+    color: #DBCC93;
+}
+
+.header-links a:active {
+    color: #A8A492;
+}
+
+.call-us{
+    width: 178px;
+    height: 36px;
+    background-image: url(../images/CallNow.png);
+    background-color: red;
+}
+
+.offcanvas-header{
+    background-color: #332C11;
+    height: 67px;
+}
+
+.offcanvas-footer{
+    background-color: #332C11;
+    height: 67px;
+    width: max-content;
+}
+
+
+
+
+/* media queries for header */
+@media screen and (min-width: 992px) {
+    .offcanvas{
+        display: none;
+    }
+
+   
+    
+}
+
+@media screen and (max-width: 991px) {
+    body > header > nav > div > a > img{
+        width: 58px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    body > header > nav > div > div:nth-child(2){
+        display: none;
+    }
+
+     /* call-us header */
+     body > header > nav > div > div.call-us.col-lg-1 {
+        display: none;
+    }
+}
+
 
 
 
