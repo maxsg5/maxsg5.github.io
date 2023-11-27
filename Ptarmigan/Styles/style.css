@@ -133,19 +133,16 @@ img {
 /* Header Styles */
 header nav {
     background-color: #332C11;
-    /* color: #fff; */
-    /* padding: 1em; */
 }
 .header-links {
     text-decoration: underline;
-    white-space: nowrap; /* Prevents wrapping to a new line */
+    white-space: nowrap;
 }
 
 .header-links a {
     display: inline;
     text-decoration: underline;
     color: #FFFFFF;
-    padding: 0 0px; /* Optional: Adjusts spacing around links */
 }
 
 .header-links a:hover {
@@ -173,10 +170,15 @@ header nav {
 
 /* About section style */
 #About {
-    height: 600px;
+    height: 450px;
     background: url(../images/image4\ 1.svg);
     background-size: cover;
     background-color: #332C11;
+}
+
+#About button {
+    margin-top: 25px;
+    width: 200px;
 }
 
 
