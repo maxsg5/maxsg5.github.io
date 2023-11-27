@@ -156,13 +156,62 @@ header nav {
     color: #A8A492;
 }
 
+/* Hero section style */
+#Hero {
+    height: 660px;
+    background: url(../images/image3\ 1.svg);
+    background-size: cover;
+}
+
+#Hero div {
+    padding-top: 150px;
+}
+
+#Hero button {
+    margin-top: 50px;
+}
+
+/* About section style */
+#About {
+    height: 600px;
+    background: url(../images/image4\ 1.svg);
+    background-size: cover;
+    background-color: #332C11;
+}
+
+
+/* cta button style */
+.btn-cta {
+    border-style: none;
+    background-color: #DBCC93;
+    border-radius: 40px;
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
 /* Type hierarchy styling=============================================== */
 
 h1 {
-
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
 
 }
 
@@ -171,7 +220,13 @@ h3 {
 }
 
 h4 {
-
+    color: #FFF;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
 }
 
 h5 { 
@@ -180,6 +235,15 @@ h5 {
 
 h6 {
 
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 a {
@@ -206,6 +270,12 @@ a {
 @media screen and (min-width: 992px) {
     .offcanvas{
         display: none;
+    }
+    p {
+        font-size: 24px;
+        width: 490px;
+        margin: 0 auto;
+        line-height: 30px;
     }
 
    
