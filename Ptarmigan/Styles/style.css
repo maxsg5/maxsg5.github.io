@@ -82,7 +82,7 @@ img {
     display: inline-flex;
     align-items: center;
     width: 200px;
-    margin-right: 20px;
+    margin-right: -45px;
 }
 
 .call-box .phone-icon{
@@ -130,6 +130,12 @@ img {
     align-items: center;
 }
 
+#offcanvasNavbar > div.offcanvas-header > button {
+    opacity: 1;
+    display: block;
+    margin-left: 90%;
+}
+
 /* Hero section style */
 #Hero {
     background: url(../images/image3\ 1.svg);
@@ -155,6 +161,68 @@ img {
 #About button {
     margin-top: 25px;
 }
+
+
+/* Process section style */
+#Process {
+    background: url(../images/image5\ 1.svg);
+    background-size: cover;
+    background-color: #332C11;
+}
+
+#Process > div > div.row.column-gap-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.step-text{
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.step-title-text {
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* Not convinced Blurb style */
+#NotConvinced {
+    background: url(../images/image4\ 1.svg);
+    background-size: cover;
+    background-color: #332C11;
+}
+
+/* Services section style */
+#Services {
+    /* background: url(../images/image5\ 1.svg); */
+    background-size: cover;
+    background-color: #A8A492;
+}
+
+.services-grid {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 2em 2em; 
+    grid-template-areas: 
+        ". ."
+        ". ."; 
+}
+
+.service-box {
+    background-color: #DBCC93;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 
 /* cta button style */
@@ -242,7 +310,7 @@ a {
     .offcanvas{
         display: none;
     }
-    p {
+    #About p {
         font-size: 24px;
         width: 490px;
         margin: 0 auto;
