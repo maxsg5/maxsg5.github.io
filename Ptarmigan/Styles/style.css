@@ -265,6 +265,10 @@ a {
     background-color: #A8A492;
 }
 
+#Services h2{
+    color: #000000;
+}
+
 .services-grid {
     display: grid; 
     grid-auto-columns: 1fr; 
@@ -274,6 +278,7 @@ a {
     grid-template-areas: 
         ". ."
         ". ."; 
+    padding-bottom: 5em;
 }
 
 .service-box {
@@ -284,10 +289,10 @@ a {
 }
 
 .service-icon {
-    background-image: url('../images/material-symbols_person-play.png');
+    /* background-image: url('../images/material-symbols_person-play.png');
     width: 57.806px;
     height: 49.875px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
 }
 
 .service-title {
