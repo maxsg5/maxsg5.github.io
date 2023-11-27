@@ -155,23 +155,21 @@ header nav {
 
 /* Hero section style */
 #Hero {
-    height: 660px;
     background: url(../images/image3\ 1.svg);
     background-size: cover;
 }
 
-#Hero div {
+#Hero > div:nth-child(1) {
     padding-top: 150px;
 }
 
 #Hero button {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 200px;
 }
 
 /* About section style */
 #About {
-    height: 450px;
     background: url(../images/image4\ 1.svg);
     background-size: cover;
     background-color: #332C11;
@@ -179,7 +177,6 @@ header nav {
 
 #About button {
     margin-top: 25px;
-    width: 350px;
 }
 
 
@@ -279,6 +276,16 @@ a {
         width: 490px;
         margin: 0 auto;
         line-height: 30px;
+    }
+    #About {
+        height: 450px;
+    }
+    #Hero {
+        /* height: 100vh; */
+        height: 660px;
+    }
+    #Hero button {
+        margin-top: 190px;
     }
 
    
