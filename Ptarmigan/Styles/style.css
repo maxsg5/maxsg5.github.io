@@ -309,6 +309,14 @@ a {
     font-size: 24px;
 }
 
+#carouselExampleIndicators > button.carousel-control-next > span.carousel-control-next-icon {
+    transform: translate(-351px, 194px);
+}
+
+#carouselExampleIndicators > button.carousel-control-next{
+    height: 100%;
+}
+
 
 
 /* cta button style */
@@ -359,6 +367,71 @@ a {
         width: 500px;
     }
 
+    #Yest {
+        
+    }
+
+    /* Container for the entire carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Flex container for slides to enable horizontal layout */
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for slide movement */
+}
+
+/* Styling individual slide */
+.carousel-slide {
+    min-width: 100%; /* Each slide takes full width of the container */
+    height: 300px; /* Set height as required */
+}
+
+/* Container for indicators and controls */
+.carousel-bottom {
+    display: flex;
+    justify-content: space-between; /* Space out indicators and controls */
+    align-items: center;
+    padding: 10px;
+}
+
+/* Flex container for indicators */
+.carousel-indicators {
+    display: flex;
+}
+
+/* Styling for each indicator */
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Circular shape */
+    background-color: #333; /* Default color */
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Highlight the active indicator */
+.indicator.active {
+    background-color: #fff; /* Active indicator color */
+}
+
+/* Styling for navigation buttons */
+.carousel-control {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Additional styling can be added here */
+
+
+    /* #carouselExampleIndicators {
+        height: 460px;
+    } */
+
    
     
 }
@@ -395,8 +468,8 @@ a {
 }
 
 
-/* HEADER/FOOTER Global styles */
-/* Header Styles */
+/* HEADER/FOOTER Global styles Put at the end to avoid style conflicts and maintain consistency */
+/* Header Styles🤕 */
 header nav {
     background-color: #332C11;
 }
@@ -419,4 +492,4 @@ header nav {
     color: #A8A492;
 }
 
-/* Footer Styles */
+/* Footer Styles 🦶  */
