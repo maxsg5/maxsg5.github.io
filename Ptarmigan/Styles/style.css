@@ -96,6 +96,12 @@ h2 {
 }
 
 h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
 
 }
 
@@ -215,7 +221,7 @@ a {
 
 /* About section style */
 #About {
-    background: url(../images/image4\ 1.svg);
+    /* background: url(../images/image4\ 1.svg); */
     background-size: cover;
     background-color: #332C11;
 }
@@ -235,6 +241,10 @@ a {
 #Process > div > div.row.column-gap-5 {
     display: flex;
     justify-content: center;
+}
+
+#Process p {
+    font-size: 24px;
 }
 
 .step-text{
@@ -271,7 +281,7 @@ a {
 
 .services-grid {
     display: grid; 
-    grid-auto-columns: 1fr; 
+    /* grid-auto-columns: 1fr;  */
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 2em 2em; 
@@ -279,6 +289,7 @@ a {
         ". ."
         ". ."; 
     padding-bottom: 5em;
+    width: 70%;
 }
 
 .service-box {
@@ -309,13 +320,13 @@ a {
     font-size: 24px;
 }
 
-#carouselExampleIndicators > button.carousel-control-next > span.carousel-control-next-icon {
+/* #carouselExampleIndicators > button.carousel-control-next > span.carousel-control-next-icon {
     transform: translate(-351px, 194px);
 }
 
 #carouselExampleIndicators > button.carousel-control-next{
     height: 100%;
-}
+} */
 
 
 
@@ -463,7 +474,8 @@ a {
             "."
             "."
             "."
-            ".";; 
+            ".";
+        width: 100%; 
     }
 }
 

@@ -24,3 +24,13 @@
     - best way to execute CSS
     - inline vs external styling
     - file structure 
+
+
+
+
+
+# Feedback for Ptarmigan
+
+- change about us background to solid color
+- Services section make quads not as wide.
+- services section make carousel smaller. Figure out how to slide image up within the box. 
