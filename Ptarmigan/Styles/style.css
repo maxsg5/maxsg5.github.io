@@ -54,7 +54,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -65,15 +67,21 @@ html {
     content: " ";
     display: table;
 }
+
 .clearfix:after {
     clear: both;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
-* { margin: 0; padding: 0; }
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: #332C11;
 }
 
@@ -119,13 +127,9 @@ h4 {
     line-height: normal;
 }
 
-h5 { 
+h5 {}
 
-}
-
-h6 {
-
-}
+h6 {}
 
 p {
     font-family: 'Red Hat Display', sans-serif;
@@ -141,7 +145,7 @@ a {
     color: #DBCC93;
 }
 
-#offcanvasNavbar > div.offcanvas-body > ul > li > a{
+#offcanvasNavbar>div.offcanvas-body>ul>li>a {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     color: #000000;
@@ -149,7 +153,7 @@ a {
 
 /* Homepage Global Styles=============================================== */
 /* call us box style */
-.call-box{
+.call-box {
     color: white;
     display: inline-flex;
     align-items: center;
@@ -157,12 +161,22 @@ a {
     margin-right: -45px;
 }
 
-.call-box .phone-icon{
-    background-image: url('../images/PhoneVector.svg'); 
+.call-box:hover {
+    color: #DBCC93;
+    cursor: pointer;
+}
+
+.call-box .phone-icon {
+    background-image: url('../images/PhoneVector.svg');
     width: 30px;
     height: 31px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
+
+/* .call-box .phone-icon:hover {
+    background-image: url('../images/PhoneVectorHover.svg');
+} */
+
 
 .contact-box .text {
     display: flex;
@@ -170,7 +184,7 @@ a {
 }
 
 .contact-box .phone-number {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -179,12 +193,12 @@ a {
     background: #A8A492;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background-color: #332C11;
     height: 67px;
 }
 
-.offcanvas-footer{
+.offcanvas-footer {
     position: absolute;
     bottom: 0;
     background-color: #332C11;
@@ -194,7 +208,7 @@ a {
     padding-right: 50px;
 }
 
-.offcanvas-footer .call-box{
+.offcanvas-footer .call-box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -202,7 +216,7 @@ a {
     align-items: center;
 }
 
-#offcanvasNavbar > div.offcanvas-header > button {
+#offcanvasNavbar>div.offcanvas-header>button {
     opacity: 1;
     display: block;
     margin-left: 90%;
@@ -214,7 +228,7 @@ a {
     background-size: cover;
 }
 
-#Hero > div:nth-child(1) {
+#Hero>div:nth-child(1) {
     padding-top: 150px;
 }
 
@@ -241,7 +255,7 @@ a {
     background-color: #332C11;
 }
 
-#Process > div > div.row.column-gap-5 {
+#Process>div>div.row.column-gap-5 {
     display: flex;
     justify-content: center;
 }
@@ -250,7 +264,7 @@ a {
     font-size: 24px;
 }
 
-.step-text{
+.step-text {
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 300;
@@ -277,18 +291,18 @@ a {
     background-color: #A8A492;
 }
 
-#Services h2{
+#Services h2 {
     color: #000000;
 }
 
 .services-grid {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
-    gap: 2em 2em; 
-    grid-template-areas: 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em 2em;
+    grid-template-areas:
         ". ."
-        ". ."; 
+        ". .";
     padding-bottom: 5em;
     width: 70%;
 }
@@ -325,21 +339,25 @@ a {
 .indicator {
     width: 10px;
     height: 10px;
-    border-radius: 50%; /* Circular shape */
-    background-color: #333; /* Default color */
+    border-radius: 50%;
+    /* Circular shape */
+    background-color: #333;
+    /* Default color */
     margin: 0 5px;
     cursor: pointer;
 }
 
 /* Highlight the active indicator */
 .indicator.active {
-    background-color: #fff; /* Active indicator color */
+    background-color: #fff;
+    /* Active indicator color */
 }
 
 /* Styling for carousel navigation buttons */
-.custom-carousel{
+.custom-carousel {
     padding-bottom: 100px;
 }
+
 .carousel-control {
     background: none;
     border: none;
@@ -350,13 +368,14 @@ a {
     /* padding-top: 50px; */
     transform: translateY(66px);
 }
-.carousel-indicators > .rounded{
-    border-radius: 50%!important;
+
+.carousel-indicators>.rounded {
+    border-radius: 50% !important;
     height: 27px;
     background-color: black;
 }
 
-.carousel-indicators > .custom-controls {
+.carousel-indicators>.custom-controls {
     background-color: #00000000;
 }
 
@@ -364,6 +383,7 @@ a {
     background-image: url('../images/arrow-2.svg');
     transform: translateY(10px);
 }
+
 .carousel-control-next-icon {
     background-image: url('../images/arrow-1.svg');
     transform: translateY(10px);
@@ -388,69 +408,121 @@ a {
 /* media queries===============================================================*/
 /* Desktop */
 @media screen and (min-width: 992px) {
-    .offcanvas{
+    .offcanvas {
         display: none;
     }
+
     #About p {
         font-size: 24px;
         width: 490px;
         margin: 0 auto;
         line-height: 30px;
     }
+
     #About {
         height: 450px;
     }
+
     #Hero {
         /* height: 100vh; */
         height: 660px;
     }
+
     #Hero button {
         margin-top: 190px;
     }
 
-    #Hero > div:nth-child(1) {
+    #Hero>div:nth-child(1) {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 500px;
     }
-    .footer-grid{
+
+    .footer-grid {
         width: 60%;
     }
+
+    #DesktopMap {
+        margin-top: 10px;
+    }
+    #MobileMap {
+        display: none;
+    }
+
+    #FooterBrand{
+        width: 167.081px;
+        height: 115px;
+    }
+    .footer-nav-item {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
 }
+
 /* Mobile */
 @media screen and (max-width: 991px) {
-    body > header > nav > div > a > img{
+    body>header>nav>div>a>img {
         width: 58px;
         height: 40px;
         flex-shrink: 0;
     }
 
     /* header-links */
-    body > header > nav > div > div:nth-child(2){
+    body>header>nav>div>div:nth-child(2) {
         display: none;
     }
 
-     /* call-us in header */
-    body > header > nav > div > div.call-box{
+    /* call-us in header */
+    body>header>nav>div>div.call-box {
         display: none;
     }
 
     .services-grid {
-        display: grid; 
-        grid-auto-columns: 1fr; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr; 
-        gap: 2em 2em; 
-        grid-template-areas: 
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2em 2em;
+        grid-template-areas:
             "."
             "."
             "."
             ".";
-        width: 100%; 
-    }
-    .footer-grid{
         width: 100%;
+    }
+
+    .footer-grid {
+        width: 100%;
+    }
+
+    #DesktopMap {
+        display: none;
+    }
+
+    #MobileMap {
+        height: 300px;
+        width: 100%;
+    }
+
+    #FormSubmitBtn {
+        width: 100%;
+        margin-top: 21px;
+        margin-bottom: 30px;
+    }
+
+    #FooterBrand{
+        width: 104.348px;
+        height: 72px;
+    }
+
+    body > footer > div > div > div.row.mt-5 > div > div {
+        transform: translateX(10px);
+    }
+
+    .footer-nav-item {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -460,6 +532,7 @@ a {
 header nav {
     background-color: #332C11;
 }
+
 .header-links {
     text-decoration: underline;
     white-space: nowrap;
@@ -479,18 +552,24 @@ header nav {
     color: #A8A492;
 }
 
+.header-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
 /* Footer Styles */
 
-footer{
+footer {
     background-color: #332C11;
     color: #FFFFFF;
 }
 
-#LetsChatText {
-    /* margin-right: 30px; */
-}
-
-.footer-header{
+.footer-header {
     color: #FFF;
     text-align: center;
     font-family: Red Hat Display;
@@ -499,6 +578,40 @@ footer{
     font-weight: 600;
     line-height: normal;
 }
+
+iframe {
+    width: 100%;
+    height: 283px;
+}
+
+.form-control::placeholder {
+    color: black;
+    opacity: 0.4;
+}
+
+input {
+    height: 50px;
+}
+
+.label-text {
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 131.523%;
+}
+
+form>* {
+    /* margin-bottom: 20px; */
+}
+
+#FormSubmitBtn {
+    width: 100%;
+    margin-top: 27px;
+}
+
+
 
 /* .footer-grid {  
     display: grid;
@@ -535,4 +648,3 @@ footer{
 .Map { 
     grid-area: 2 / 1 / 3 / 2; 
 } */
-  

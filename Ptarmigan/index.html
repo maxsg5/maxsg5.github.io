@@ -107,7 +107,7 @@
   <section id="Hero" class="container-fluid">
     <div class="text-center">
       <h1>THINK OUTSIDE THE BOX WITH PTARMIGAN</h1>
-      <h4>Custom woodworking & Interiors</h4>
+      <span class="header-subtitle">Custom woodworking & Interiors</span>
     </div>
     <div class="text-center mt-5 pb-5">
       <button class="btn-cta">Contact</button>
@@ -401,21 +401,84 @@
             <img src="./images/mdi-address-marker-outline.svg" alt="">
             <span>1234 random lane</span>
           </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32348.833640206012!2d-147.42314539594582!3d64.77866558056765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705%2C%20USA!5e0!3m2!1sen!2sca!4v1701566404920!5m2!1sen!2sca" 
-          width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+          <iframe id="DesktopMap" title="Google Maps Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32348.833640206012!2d-147.42314539594582!3d64.77866558056765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705%2C%20USA!5e0!3m2!1sen!2sca!4v1701566404920!5m2!1sen!2sca" style="border:0;" allowfullscreen="true" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">
-            
           </iframe>
         </div>
 
         
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-5">
+          <form class="pt-4">
+            <div class="form-group mb-3">
+              <label class="label-text" for="name">Name</label> 
+              <input id="name" name="name" placeholder="Name" type="text" class="form-control">
+            </div>
+            <div class="form-group mb-3">
+              <label class="label-text" for="phone">Phone</label> 
+              <input id="phone" name="phone" placeholder="XXX-XXX-XXXX" type="text" class="form-control">
+            </div>
+            <div class="form-group mb-3">
+              <label class="label-text" for="email">Email</label> 
+              <input id="email" name="email" placeholder="Email@email.com" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="label-text" for="textarea">Comment or Message</label> 
+              <textarea id="textarea" name="textarea" placeholder="Example: I'm looking for bespoke furniture for my business" cols="40" rows="10" class="form-control"></textarea>
+            </div> 
+            <div class="form-group">
+              <div class="text-center">
+                <button id="FormSubmitBtn" name="submit" type="submit" class="btn-cta">Submit</button>
+              </div>
+            </div>
+          </form>
+          <iframe id="MobileMap" title="Google Maps Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32348.833640206012!2d-147.42314539594582!3d64.77866558056765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705%2C%20USA!5e0!3m2!1sen!2sca!4v1701566404920!5m2!1sen!2sca" style="border:0;" allowfullscreen="true" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
 
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <img id="FooterBrand" src="./images/image-11.png" alt="Logo" width="100" height="69" class="d-inline-block align-text-top">
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mt-5">
+          <div class="container text-center">
+            <div class="header-links col-lg-12">
+              <a class="footer-nav-item" href="#">About</a>
+              <a class="footer-nav-item" href="#">Team</a>
+              <a class="footer-nav-item" href="#">Process</a>
+              <a class="footer-nav-item" href="#">Services</a>
+              <a class="footer-nav-item" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="text-center">
+            <a class="call-box">
+              <div class="phone-icon"></div>
+              <div class="text">
+                <div>Give us a call</div>
+                <div class="phone-number">XXX-XXX-XXXX</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row d-flex">
+          <div class="col-sm-12 text-center">
+            <p class="pt-3">© 2023 Max Schafer</p>
+          </div>
         </div>
 
       </div>
     </div>
+
+
     <!-- <div class="footer-grid">
         <div class="Left">
           <div class="container-left">
