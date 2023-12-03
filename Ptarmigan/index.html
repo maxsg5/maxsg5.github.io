@@ -1,35 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="theme-color" content="#317EFB"/><meta name="description" content="Put your description here.">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/maxsg5/maxsg5.github.io@main/Ptarmigan/Styles/normalize.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/maxsg5/maxsg5.github.io@main/Ptarmigan/Styles/style.css"> -->
-    <link rel="stylesheet" href="./Styles/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#317EFB" />
+  <meta name="description" content="Put your description here.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/maxsg5/maxsg5.github.io@main/Ptarmigan/Styles/normalize.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/maxsg5/maxsg5.github.io@main/Ptarmigan/Styles/style.css"> -->
+  <link rel="stylesheet" href="./Styles/style.css">
 
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./images/Logo.png" alt="Logo" width="100" height="69" class="d-inline-block align-text-top">
-              </a>
-              <div class="header-links col-lg-5 ml-5 text-center">
-                <a class="px-3" href="#">About</a>
-                <a class="px-3" href="#">Team</a>
-                <a class="px-3" href="#">Process</a>
-                <a class="px-3" href="#">Services</a>
-                <a class="px-3" href="#">Contact</a>
-              </div>
 
-              
-                
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/Logo.png" alt="Logo" width="100" height="69" class="d-inline-block align-text-top">
+        </a>
+        <div class="header-links col-lg-5 ml-5 text-center">
+          <a class="px-3" href="#">About</a>
+          <a class="px-3" href="#">Team</a>
+          <a class="px-3" href="#">Process</a>
+          <a class="px-3" href="#">Services</a>
+          <a class="px-3" href="#">Contact</a>
+        </div>
+
+
+
+        <div class="call-box">
+          <div class="phone-icon"></div>
+          <div class="text">
+            <div>Give us a call</div>
+            <div class="phone-number">XXX-XXX-XXXX</div>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+
+          <!-- <span class="toggler-icon top-bar"></span> -->
+          <!-- <span class="toggler-icon middle-bar"></span> -->
+          <!-- <span class="toggler-icon bottom-bar"></span> -->
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header" data-bs-theme="dark">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-5">
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">About</a>
+              </li>
+              <li>
+                <hr>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Team</a>
+              </li>
+              <li>
+                <hr>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Process</a>
+              </li>
+              <li>
+                <hr>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Services</a>
+              </li>
+              <li>
+                <hr>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Contact</a>
+              </li>
+              <li>
+                <hr>
+              </li>
+            </ul>
+            <div class="offcanvas-footer">
               <div class="call-box">
                 <div class="phone-icon"></div>
                 <div class="text">
@@ -37,341 +96,346 @@
                   <div class="phone-number">XXX-XXX-XXXX</div>
                 </div>
               </div>
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-dark"></span>
-               
-                <!-- <span class="toggler-icon top-bar"></span> -->
-                <!-- <span class="toggler-icon middle-bar"></span> -->
-                <!-- <span class="toggler-icon bottom-bar"></span> -->
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header" data-bs-theme="dark">
-                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-5">
-                    <li class="nav-item">
-                      <a class="nav-link text-center" href="#">About</a>
-                    </li>
-                    <li>
-                      <hr>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center" href="#">Team</a>
-                    </li>
-                    <li>
-                      <hr>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center" href="#">Process</a>
-                    </li>
-                    <li>
-                      <hr>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center" href="#">Services</a>
-                    </li>
-                    <li>
-                      <hr>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-center" href="#">Contact</a>
-                    </li>
-                    <li>
-                      <hr>
-                    </li>
-                  </ul>
-                  <div class="offcanvas-footer">
-                    <div class="call-box">
-                      <div class="phone-icon"></div>
-                      <div class="text">
-                        <div>Give us a call</div>
-                        <div class="phone-number">XXX-XXX-XXXX</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </nav>
-    </header>
-
-    <!-- Hero section -->
-    <section id="Hero" class="container-fluid">
-      <div class="text-center">
-        <h1>THINK OUTSIDE THE BOX WITH PTARMIGAN</h1>
-        <h4>Custom woodworking & Interiors</h4>
-      </div>
-      <div class="text-center mt-5 pb-5">
-        <button class="btn-cta">Contact</button>
-      </div>
-    </section>
-
-    <!-- About section -->
-    <section id="About">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 pt-4">
-            <h2>About us</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 pt-4 d-flex">
-            <p style="width: 669px;">Founded by a meticulous woodworker with a passion for design, Ptarmigan is a small, bespoke studio offering clients a creative and practical, but ultimately personal, design-build service. We work closely with clients to design and build beautifully crafted built-ins, kitchens, custom cabinetry, and furniture that are a pleasure to come home to.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="text-center mb-5">
-            <button class="btn-cta">Learn more about our team</button>
           </div>
         </div>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <!-- Process section -->
-    <section id="Process">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-lg-12 pt-4">
-            <h2>Our Process</h2>
-          </div>
-        </div>
+  <!-- Hero section -->
+  <section id="Hero" class="container-fluid">
+    <div class="text-center">
+      <h1>THINK OUTSIDE THE BOX WITH PTARMIGAN</h1>
+      <h4>Custom woodworking & Interiors</h4>
+    </div>
+    <div class="text-center mt-5 pb-5">
+      <button class="btn-cta">Contact</button>
+    </div>
+  </section>
 
-        
-        <div class="row column-gap-5 py-5">
-          <div class="col-lg-3">
-            <div class="d-flex flex-column">
-              <p class="text-start step-text">STEP 1</p>
-              <p class="step-title-text text-start pt-3">BRAINSTORM</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <p class="text-start">You have a concept for a custom piece. We have a uniquely skilled design team to develop your idea and bring it to light.</p>
-          </div>
-        </div>
-
-        <div class="row column-gap-5 py-5">
-          <div class="col-lg-3">
-            <div class="d-flex flex-column">
-              <p class="text-start step-text">STEP 2</p>
-              <p class="step-title-text text-start pt-3">DESIGN</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <p class="text-start">Your vision is transformed into precise, detailed mock-ups and refined scaled shop drawings. We’re ready for our team to build.</p>
-          </div>
-        </div>
-    
-        <div class="row column-gap-5 py-5">
-          <div class="col-lg-3">
-            <div class="d-flex flex-column">
-              <p class="text-start step-text">STEP 3</p>
-              <p class="step-title-text text-start pt-3">DETAILS</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <p class="text-start">Leave the nitty-gritty to us. If you’re working on-site, we’ll be there to field measure, install and make sure it is perfect.</p>
-          </div>
-        </div>
-
-        <div class="row column-gap-5 py-5">
-          <div class="col-lg-3">
-            <div class="d-flex flex-column">
-              <p class="text-start step-text">STEP4</p>
-              <p class="step-title-text text-start pt-3">MASTERPIECE</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <p class="text-start">Sit back and watch your vision unfold. Enjoy the praise.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="text-center mb-5">
-            <button class="btn-cta">Let's get started</button>
-          </div>
-        
-    </section>
-
-    <!-- Not convinced Blurb -->
-    <section id="NotConvinced">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 py-5 my-5">
-            <h2>Not convinced? Here's what we can offer.</h2>
-          </div>
+  <!-- About section -->
+  <section id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 pt-4">
+          <h2>About us</h2>
         </div>
       </div>
-    </section>
+      <div class="row">
+        <div class="col-lg-12 pt-4 d-flex">
+          <p style="width: 669px;">Founded by a meticulous woodworker with a passion for design, Ptarmigan is a small,
+            bespoke studio offering clients a creative and practical, but ultimately personal, design-build service. We
+            work closely with clients to design and build beautifully crafted built-ins, kitchens, custom cabinetry, and
+            furniture that are a pleasure to come home to.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center mb-5">
+          <button class="btn-cta">Learn more about our team</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Services section -->
-    <section id="Services">
+  <!-- Process section -->
+  <section id="Process">
+    <div class="container">
 
-      <div class="d-block">
-        <div class="services-grid pt-5 mx-auto">
+      <div class="row">
+        <div class="col-lg-12 pt-4">
+          <h2>Our Process</h2>
+        </div>
+      </div>
+
+
+      <div class="row column-gap-5 py-5">
+        <div class="col-lg-3">
+          <div class="d-flex flex-column">
+            <p class="text-start step-text">STEP 1</p>
+            <p class="step-title-text text-start pt-3">BRAINSTORM</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-start">You have a concept for a custom piece. We have a uniquely skilled design team to develop
+            your idea and bring it to light.</p>
+        </div>
+      </div>
+
+      <div class="row column-gap-5 py-5">
+        <div class="col-lg-3">
+          <div class="d-flex flex-column">
+            <p class="text-start step-text">STEP 2</p>
+            <p class="step-title-text text-start pt-3">DESIGN</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-start">Your vision is transformed into precise, detailed mock-ups and refined scaled shop
+            drawings. We’re ready for our team to build.</p>
+        </div>
+      </div>
+
+      <div class="row column-gap-5 py-5">
+        <div class="col-lg-3">
+          <div class="d-flex flex-column">
+            <p class="text-start step-text">STEP 3</p>
+            <p class="step-title-text text-start pt-3">DETAILS</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-start">Leave the nitty-gritty to us. If you’re working on-site, we’ll be there to field
+            measure, install and make sure it is perfect.</p>
+        </div>
+      </div>
+
+      <div class="row column-gap-5 py-5">
+        <div class="col-lg-3">
+          <div class="d-flex flex-column">
+            <p class="text-start step-text">STEP4</p>
+            <p class="step-title-text text-start pt-3">MASTERPIECE</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p class="text-start">Sit back and watch your vision unfold. Enjoy the praise.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="text-center mb-5">
+          <button class="btn-cta">Let's get started</button>
+        </div>
+
+  </section>
+
+  <!-- Not convinced Blurb -->
+  <section id="NotConvinced">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 py-5 my-5">
+          <h2>Not convinced? Here's what we can offer.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section -->
+  <section id="Services">
+
+    <div class="d-block">
+      <div class="services-grid pt-5 mx-auto">
+        <div>
+          <div class="service-box">
+            <div class="service-icon">
+              <img src="./images/material-symbols-person-play.svg" alt="personalized-service-icon">
+            </div>
+            <div class="service-title">PERSONALIZED SERVICE</div>
+            <div class="service-text">Choose Ptarmigan for hassle-free installation and perfect fit, unlike Ikea. Our
+              expert team handles everything, from precise measurements to seamless coordination, without any hidden
+              fees.</div>
+          </div>
+        </div>
+        <div>
           <div>
             <div class="service-box">
               <div class="service-icon">
-                <img src="./images/material-symbols-person-play.svg" alt="personalized-service-icon">
+                <img src="./images/raphael-green.svg" alt="sustainability-service-icon">
               </div>
-              <div class="service-title">PERSONALIZED SERVICE</div>
-              <div class="service-text">Choose Ptarmigan for hassle-free installation and perfect fit, unlike Ikea. Our expert team handles everything, from precise measurements to seamless coordination, without any hidden fees.</div>
+              <div class="service-title">SUSTAINABILITY</div>
+              <div class="service-text">Sustainability isn't just a buzzword for us; it's a practice. We source
+                materials responsibly and build to last, contrary to the disposable culture often seen with
+                mass-produced furniture.</div>
             </div>
           </div>
+        </div>
+        <div>
           <div>
-            <div>
-              <div class="service-box">
-                <div class="service-icon">
-                  <img src="./images/raphael-green.svg" alt="sustainability-service-icon">
-                </div>
-                <div class="service-title">SUSTAINABILITY</div>
-                <div class="service-text">Sustainability isn't just a buzzword for us; it's a practice. We source materials responsibly and build to last, contrary to the disposable culture often seen with mass-produced furniture.</div>
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="./images/dashicons-admin-customizer.svg" alt="customization-service-icon">
               </div>
+              <div class="service-title">CUSTOMIZATION</div>
+              <div class="service-text">Ptarmigan excels in customization. We tailor every project to fit your unique
+                space and style, while with Ikea, customization is limited and often comes with a complex set of
+                instructions.</div>
             </div>
           </div>
+        </div>
+        <div>
           <div>
-            <div>
-              <div class="service-box">
-                <div class="service-icon">
-                  <img src="./images/dashicons-admin-customizer.svg" alt="customization-service-icon">
-                </div>
-                <div class="service-title">CUSTOMIZATION</div>
-                <div class="service-text">Ptarmigan excels in customization. We tailor every project to fit your unique space and style, while with Ikea, customization is limited and often comes with a complex set of instructions.</div>
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="./images/healthicons-money-bag.svg" alt="investement-service-icon"
+                  style="transform: translateX(-12px);">
               </div>
+              <div class="service-title">INVESTMENT IN YOUR HOME</div>
+              <div class="service-text">Investing in Ptarmigan's custom woodwork means investing in the beauty and value
+                of your home, something that flat-packed, build-it-yourself options can't offer.</div>
             </div>
           </div>
-          <div>
-            <div>
-              <div class="service-box">
-                <div class="service-icon">
-                  <img src="./images/healthicons-money-bag.svg" alt="investement-service-icon" style="transform: translateX(-12px);">
-                </div>
-                <div class="service-title">INVESTMENT IN YOUR HOME</div>
-                <div class="service-text">Investing in Ptarmigan's custom woodwork means investing in the beauty and value of your home, something that flat-packed, build-it-yourself options can't offer.</div>
-              </div>
-            </div>
-          </div>         
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 pt-4">
+          <h2>Our Services</h2>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 pt-4">
-            <h2>Our Services</h2>
-          </div>
+      <div class="row">
+        <div class="col-lg-12 py-4">
+          <h3>FURNITURE</h3>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-12 py-4">
-            <h3>FURNITURE</h3>
-          </div>
-        </div>
+      <div class="row">
+        <div id="FurnitureCarousel" class="custom-carousel">
+          <div id="carouselFurniture" class="carousel slide">
+            <div class="carousel-indicators">
 
-        <div class="row">
-          
-          <div id="FurnitureCarousel" class="">
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <button class="carousel-control-prev custom-controls" type="button" data-bs-target="#carouselFurniture"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+
+              <button type="button" data-bs-target="#carouselFurniture" data-bs-slide-to="0" class="active rounded"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselFurniture" data-bs-slide-to="1" class="rounded"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselFurniture" data-bs-slide-to="2" class="rounded"
+                aria-label="Slide 3"></button>
+
+              <button class="carousel-control-next custom-controls" type="button" data-bs-target="#carouselFurniture"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-            </div>
 
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 py-4">
+          <h3>INTERIORS</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="InteriorCarousel" class="custom-carousel">
+          <div id="carouselInteriors" class="carousel slide">
+            <div class="carousel-indicators">
+
+              <button class="carousel-control-prev custom-controls" type="button" data-bs-target="#carouselInteriors"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button type="button" data-bs-target="#carouselInteriors" data-bs-slide-to="0" class="active rounded"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselInteriors" data-bs-slide-to="1" class="rounded"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselInteriors" data-bs-slide-to="2" class="rounded"
+                aria-label="Slide 3"></button>
+
+              <button class="carousel-control-next custom-controls" type="button" data-bs-target="#carouselInteriors"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <footer>
+    <h3 class="pt-4 footer-header">Lets talk business</h3>
+
+    <div class="container footer-grid">
+      <div class="row justify-content-start">
+
+        <div class="col-lg-6">
+          <h3 class="pt-4 text-start footer-header">Contact us</h3>
+          <p id="LetsChatText" class="text-start">If you have any questions or want more information on our custom
+            woodworking products lets chat!</p>
+          <div class="d-inline-block pb-2">
+            <img src="./images/carbon-email.svg" alt="Email Icon">
+            <span>Email@email.com</span>
+          </div>
+          <br>
+          <div class="d-inline-block py-2">
+            <img src="./images/ph-phone.svg" alt="Phone Icon">
+            <span>XXX-XXX-XXXX</span>
+          </div>
+          <br>
+          <div class="d-inline-block pt-2">
+            <img src="./images/mdi-address-marker-outline.svg" alt="">
+            <span>1234 random lane</span>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32348.833640206012!2d-147.42314539594582!3d64.77866558056765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705%2C%20USA!5e0!3m2!1sen!2sca!4v1701566404920!5m2!1sen!2sca" 
+          width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
             
-
-            <!-- CUSTOM CAROUSEL -->
-            <!-- <div id="myCarousel" class="carousel">
-              <div class="carousel-slides">
-                  <div class="carousel-slide active">
-                    <img src="./images/image-62.png" alt="">
-                  </div>
-                  <div class="carousel-slide">Slide 2</div>
-                  <div class="carousel-slide">Slide 3</div>
-              </div>
-              
-              <div class="carousel-bottom">
-                  <div class="carousel-indicators">
-                      <span class="indicator active" data-slide-to="0"></span>
-                      <span class="indicator" data-slide-to="1"></span>
-                      <span class="indicator" data-slide-to="2"></span>
-                  </div>
-                  <button class="carousel-control prev">Prev</button>
-                  <button class="carousel-control next">Next</button>
-              </div>
-          </div> -->
-          
-          </div>      
+          </iframe>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 py-5">
-            <h3>INTERIORS</h3>
+        
+
+        <div class="col-lg-6">
+
+        </div>
+
+      </div>
+    </div>
+    <!-- <div class="footer-grid">
+        <div class="Left">
+          <div class="container-left">
+            <div class="Contact">
+              <h3 class="pt-4 footer-header">Contact us</h3>
+              <p>If you have any questions or want more information on our custom woodworking products lets chat!</p>
+            </div>
+            <div class="Map"></div>
           </div>
         </div>
+        <div class="Right"></div>
+      </div> -->
 
-        <div class="row">
-          <div id="InteriorsCarousel" class="">
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/image-62.png" class="d-block w-100 mx-auto" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-        </div>
-
-    </section>
-
-    <footer>
-      <h1 style="color: black;">TODO: FOOTER</h1>
-    </footer>
+  </footer>
 
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <!-- <script src="./scripts/carousel.js"></script> -->
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>

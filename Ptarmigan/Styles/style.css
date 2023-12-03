@@ -73,6 +73,10 @@ img {
 	max-width: 100%;
 }
 * { margin: 0; padding: 0; }
+body{
+    background-color: #332C11;
+}
+
 
 /* Type hierarchy styling=============================================== */
 
@@ -221,7 +225,6 @@ a {
 
 /* About section style */
 #About {
-    /* background: url(../images/image4\ 1.svg); */
     background-size: cover;
     background-color: #332C11;
 }
@@ -270,7 +273,6 @@ a {
 
 /* Services section style */
 #Services {
-    /* background: url(../images/image5\ 1.svg); */
     background-size: cover;
     background-color: #A8A492;
 }
@@ -281,7 +283,6 @@ a {
 
 .services-grid {
     display: grid; 
-    /* grid-auto-columns: 1fr;  */
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 2em 2em; 
@@ -320,15 +321,54 @@ a {
     font-size: 24px;
 }
 
-/* #carouselExampleIndicators > button.carousel-control-next > span.carousel-control-next-icon {
-    transform: translate(-351px, 194px);
+/* Styling for each indicator */
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Circular shape */
+    background-color: #333; /* Default color */
+    margin: 0 5px;
+    cursor: pointer;
 }
 
-#carouselExampleIndicators > button.carousel-control-next{
-    height: 100%;
-} */
+/* Highlight the active indicator */
+.indicator.active {
+    background-color: #fff; /* Active indicator color */
+}
 
+/* Styling for carousel navigation buttons */
+.custom-carousel{
+    padding-bottom: 100px;
+}
+.carousel-control {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
+.carousel-indicators {
+    /* padding-top: 50px; */
+    transform: translateY(66px);
+}
+.carousel-indicators > .rounded{
+    border-radius: 50%!important;
+    height: 27px;
+    background-color: black;
+}
+
+.carousel-indicators > .custom-controls {
+    background-color: #00000000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/arrow-2.svg');
+    transform: translateY(10px);
+}
+.carousel-control-next-icon {
+    background-image: url('../images/arrow-1.svg');
+    transform: translateY(10px);
+
+}
 
 /* cta button style */
 .btn-cta {
@@ -345,11 +385,8 @@ a {
 }
 
 
-
-
-
-
 /* media queries===============================================================*/
+/* Desktop */
 @media screen and (min-width: 992px) {
     .offcanvas{
         display: none;
@@ -377,76 +414,11 @@ a {
         margin-right: auto;
         width: 500px;
     }
-
-    #Yest {
-        
+    .footer-grid{
+        width: 60%;
     }
-
-    /* Container for the entire carousel */
-.carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
 }
-
-/* Flex container for slides to enable horizontal layout */
-.carousel-slides {
-    display: flex;
-    transition: transform 0.5s ease; /* Smooth transition for slide movement */
-}
-
-/* Styling individual slide */
-.carousel-slide {
-    min-width: 100%; /* Each slide takes full width of the container */
-    height: 300px; /* Set height as required */
-}
-
-/* Container for indicators and controls */
-.carousel-bottom {
-    display: flex;
-    justify-content: space-between; /* Space out indicators and controls */
-    align-items: center;
-    padding: 10px;
-}
-
-/* Flex container for indicators */
-.carousel-indicators {
-    display: flex;
-}
-
-/* Styling for each indicator */
-.indicator {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%; /* Circular shape */
-    background-color: #333; /* Default color */
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-/* Highlight the active indicator */
-.indicator.active {
-    background-color: #fff; /* Active indicator color */
-}
-
-/* Styling for navigation buttons */
-.carousel-control {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-/* Additional styling can be added here */
-
-
-    /* #carouselExampleIndicators {
-        height: 460px;
-    } */
-
-   
-    
-}
-
+/* Mobile */
 @media screen and (max-width: 991px) {
     body > header > nav > div > a > img{
         width: 58px;
@@ -477,11 +449,14 @@ a {
             ".";
         width: 100%; 
     }
+    .footer-grid{
+        width: 100%;
+    }
 }
 
 
 /* HEADER/FOOTER Global styles Put at the end to avoid style conflicts and maintain consistency */
-/* Header Styles🤕 */
+/* Header Styles */
 header nav {
     background-color: #332C11;
 }
@@ -504,4 +479,60 @@ header nav {
     color: #A8A492;
 }
 
-/* Footer Styles 🦶  */
+/* Footer Styles */
+
+footer{
+    background-color: #332C11;
+    color: #FFFFFF;
+}
+
+#LetsChatText {
+    /* margin-right: 30px; */
+}
+
+.footer-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* .footer-grid {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0em 0em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Left Right";
+  }
+  
+.Left { 
+    grid-area: Left;
+}
+  
+.Right { 
+    grid-area: Right; 
+}
+  
+.container-left {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30em;
+    grid-auto-columns: 1fr;
+    gap: 0em 0em;
+    grid-auto-flow: row;
+}
+  
+.Conctact { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+  
+.Map { 
+    grid-area: 2 / 1 / 3 / 2; 
+} */
+  
