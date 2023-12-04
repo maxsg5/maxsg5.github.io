@@ -94,7 +94,7 @@ h1 {
     font-size: 40px;
     line-height: 48px;
     color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h2 {
@@ -103,7 +103,7 @@ h2 {
     font-size: 32px;
     line-height: 38px;
     color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -113,7 +113,7 @@ h3 {
     font-size: 32px;
     line-height: 38px;
     color: #000000;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -405,6 +405,65 @@ a {
 }
 
 
+/* Team page global styles==================================================== */
+/* Hero section styles */
+#HeroTeam {
+    background: url(../images/artiom-vallat-yvrw-7-lb-98-fe-unsplash-1.png);
+    background-size: cover;
+}
+
+#HeroTeam>div:nth-child(1) {
+    padding-top: 150px;
+}
+
+.hero-team-text {
+    width: 791px;
+}
+
+/* Team section styles */
+#Team {
+    background-size: cover;
+    background-color: #A8A492;
+}
+
+#Team h2 {
+    color: #000000;
+}
+
+.employee-card{
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0em 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Left Right";
+    width: 90%;
+}
+  
+.employee-image { 
+    grid-area: Left; 
+    
+}
+  
+.employee-text { 
+    grid-area: Right; 
+}
+
+.employee-text p { 
+    text-align: left;
+    color: #000;
+    /* width: 223px; */
+}
+
+.employee-text h3 { 
+    text-align: left;
+    color: #000;
+    /* width: 223px; */
+}
+  
+
 /* media queries===============================================================*/
 /* Desktop */
 @media screen and (min-width: 992px) {
@@ -424,6 +483,11 @@ a {
     }
 
     #Hero {
+        /* height: 100vh; */
+        height: 660px;
+    }
+
+    #HeroTeam {
         /* height: 100vh; */
         height: 660px;
     }
@@ -524,6 +588,60 @@ a {
         margin-left: 2%;
         margin-right: 2%;
     }
+
+    .hero-team-text {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .employee-card{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0em 0em; 
+        grid-template-areas: 
+            "Left"
+            "Right"; 
+        width: 100%;
+    }
+
+    .employee-image-1 img{
+        display: none;
+    }
+
+    .employee-image-1{
+        background: url(../images/craig-mckay-jm-u-rdhtm-7-ng-unsplash-1Mobile.png);
+        background-size: cover;
+    }
+
+    .employee-image-2 img{
+        display: none;
+    }
+
+    .employee-image-2{
+        background: url(../images/vicky-hladynets-c-8-ta-0-gw-pb-qg-unsplash-1Mobile.png);
+        background-size: cover;
+    }
+
+    .employee-image-3 img{
+        display: none;
+    }
+
+    .employee-image-3{
+        background: url(../images/stephanie-liverani-zz-5-l-qe-vsmy-unsplash-1Mobile.png);
+        background-size: cover;
+    }
+
+    .employee-image-4 img{
+        display: none;
+    }
+
+    .employee-image-4{
+        background: url(../images/jakob-owens-lk-m-jc-gdzl-vs-unsplash-1Mobile.png);
+        background-size: cover;
+    }
+
 }
 
 
