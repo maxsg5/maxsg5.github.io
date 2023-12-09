@@ -127,10 +127,6 @@ h4 {
     line-height: normal;
 }
 
-h5 {}
-
-h6 {}
-
 p {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
@@ -260,7 +256,7 @@ a {
     justify-content: center;
 }
 
-#Process p {
+.process-p {
     font-size: 24px;
 }
 
@@ -313,6 +309,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .service-icon {
     /* background-image: url('../images/material-symbols_person-play.png');
@@ -466,6 +463,16 @@ a {
 
 /* media queries===============================================================*/
 /* Desktop */
+@media screen and (min-width: 1276px) {
+    form {
+        padding-top: 25px;
+    } 
+}
+@media screen and (min-width: 992px) and (max-width: 1275px) {
+    form {
+        padding-top: 49px;
+    } 
+}
 @media screen and (min-width: 992px) {
     .offcanvas {
         display: none;
@@ -522,7 +529,28 @@ a {
         margin-right: 2%;
         margin-left: 2%;
     }
+
+    .service-box-right {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .service-box-right-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
+
 
 /* Mobile */
 @media screen and (max-width: 991px) {
@@ -642,6 +670,26 @@ a {
         background-size: cover;
     }
 
+    .service-box-right {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .service-box-right-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 }
 
 
@@ -652,22 +700,23 @@ header nav {
 }
 
 .header-links {
-    text-decoration: underline;
     white-space: nowrap;
 }
 
 .header-links a {
     display: inline;
-    text-decoration: underline;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
 .header-links a:hover {
     color: #DBCC93;
+    text-decoration: underline;
 }
 
 .header-links a:active {
     color: #A8A492;
+    text-decoration: underline;
 }
 
 .header-subtitle {
