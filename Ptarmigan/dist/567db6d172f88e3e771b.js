@@ -1,4 +1,4 @@
-//import css
+//import css used for webpack
 import '../Styles/normalize.css';
 import '../Styles/style.css';
 
