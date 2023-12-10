@@ -300,14 +300,6 @@ a {
     justify-content: space-between;
 }
 
-
-.service-icon {
-    /* background-image: url('../images/material-symbols_person-play.png');
-    width: 57.806px;
-    height: 49.875px;
-    flex-shrink: 0; */
-}
-
 .service-title {
     color: #000000;
     font-family: 'Red Hat Display', sans-serif;
@@ -327,9 +319,7 @@ a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    /* Circular shape */
     background-color: #333;
-    /* Default color */
     margin: 0 5px;
     cursor: pointer;
 }
@@ -337,7 +327,6 @@ a {
 /* Highlight the active indicator */
 .indicator.active {
     background-color: #fff;
-    /* Active indicator color */
 }
 
 /* Styling for carousel navigation buttons */
@@ -352,7 +341,6 @@ a {
 }
 
 .carousel-indicators {
-    /* padding-top: 50px; */
     transform: translateY(66px);
 }
 
@@ -441,13 +429,13 @@ a {
 .employee-text p { 
     text-align: left;
     color: #000;
-    /* width: 223px; */
+    
 }
 
 .employee-text h3 { 
     text-align: left;
     color: #000;
-    /* width: 223px; */
+    
 }
   
 
@@ -480,12 +468,10 @@ a {
     }
 
     #Hero {
-        /* height: 100vh; */
         height: 660px;
     }
 
     #HeroTeam {
-        /* height: 100vh; */
         height: 660px;
     }
 
@@ -768,49 +754,7 @@ input {
     line-height: 131.523%;
 }
 
-form>* {
-    /* margin-bottom: 20px; */
-}
-
 #FormSubmitBtn {
     width: 100%;
     margin-top: 27px;
 }
-
-
-
-/* .footer-grid {  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0em 0em;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Left Right";
-  }
-  
-.Left { 
-    grid-area: Left;
-}
-  
-.Right { 
-    grid-area: Right; 
-}
-  
-.container-left {  
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 30em;
-    grid-auto-columns: 1fr;
-    gap: 0em 0em;
-    grid-auto-flow: row;
-}
-  
-.Conctact { 
-    grid-area: 1 / 1 / 2 / 2; 
-}
-  
-.Map { 
-    grid-area: 2 / 1 / 3 / 2; 
-} */
