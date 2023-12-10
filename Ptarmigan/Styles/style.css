@@ -211,7 +211,7 @@ a {
 
 /* Hero section style */
 #Hero {
-    background: url(../images/image3\ 1.svg);
+    background: url(../images/imageHero.webp);
     background-size: cover;
 }
 
@@ -237,7 +237,7 @@ a {
 
 /* Process section style */
 #Process {
-    background: url(../images/image5\ 1.svg);
+    background: url(../images/processBackground.webp);
     background-size: cover;
     background-color: #332C11;
 }
@@ -383,7 +383,7 @@ a {
 /* Team page global styles==================================================== */
 /* Hero section styles */
 #HeroTeam {
-    background: url(../images/artiom-vallat-yvrw-7-lb-98-fe-unsplash-1.png);
+    background: url(../images/artiom-vallat-yvrw-7-lb-98-fe-unsplash-1.webp);
     background-size: cover;
 }
 
@@ -620,7 +620,7 @@ a {
     }
 
     .employee-image-1{
-        background: url(../images/craig-mckay-jm-u-rdhtm-7-ng-unsplash-1Mobile.png);
+        background: url(../images/craig-mckay-jm-u-rdhtm-7-ng-unsplash-1Mobile.webp);
         background-size: cover;
         height: 238px;
     }
@@ -630,7 +630,7 @@ a {
     }
 
     .employee-image-2{
-        background: url(../images/vicky-hladynets-c-8-ta-0-gw-pb-qg-unsplash-1Mobile.png);
+        background: url(../images/vicky-hladynets-c-8-ta-0-gw-pb-qg-unsplash-1Mobile.webp);
         background-size: cover;
         height: 238px;
     }
@@ -640,7 +640,7 @@ a {
     }
 
     .employee-image-3{
-        background: url(../images/stephanie-liverani-zz-5-l-qe-vsmy-unsplash-1Mobile.png);
+        background: url(../images/stephanie-liverani-zz-5-l-qe-vsmy-unsplash-1Mobile.webp);
         background-size: cover;
         height: 238px;
     }
@@ -650,7 +650,7 @@ a {
     }
 
     .employee-image-4{
-        background: url(../images/jakob-owens-lk-m-jc-gdzl-vs-unsplash-1Mobile.png);
+        background: url(../images/jakob-owens-lk-m-jc-gdzl-vs-unsplash-1Mobile.webp);
         background-size: cover;
         height: 238px;
     }
