@@ -35,6 +35,7 @@
 /* font-style: normal; */
 /* font-weight: 700; */
 /* line-height: normal; */
+
 /* font imports */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -153,14 +154,14 @@ a {
 }
 
 .call-box .phone-icon {
-    background-image: url('../\images/PhoneVector.svg');
+    background-image: url('../images/PhoneVector.svg');
     width: 30px;
     height: 31px;
     margin-right: 10px;
 }
 
 /* .call-box .phone-icon:hover {
-    background-image: url('../\images/PhoneVectorHover.svg');
+    background-image: url('../images/PhoneVectorHover.svg');
 } */
 
 
@@ -210,7 +211,7 @@ a {
 
 /* Hero section style */
 #Hero {
-    background: url(../\images/image3\ 1.svg);
+    background: url(../images/image3\ 1.svg);
     background-size: cover;
 }
 
@@ -236,7 +237,7 @@ a {
 
 /* Process section style */
 #Process {
-    background: url(../\images/image5\ 1.svg);
+    background: url(../images/image5\ 1.svg);
     background-size: cover;
     background-color: #332C11;
 }
@@ -266,7 +267,7 @@ a {
 
 /* Not convinced Blurb style */
 #NotConvinced {
-    background: url(../\images/image4\ 1.svg);
+    background: url(../images/image4\ 1.svg);
     background-size: cover;
     background-color: #332C11;
 }
@@ -302,7 +303,7 @@ a {
 
 
 .service-icon {
-    /* background-image: url('../\images/material-symbols_person-play.png');
+    /* background-image: url('../images/material-symbols_person-play.png');
     width: 57.806px;
     height: 49.875px;
     flex-shrink: 0; */
@@ -367,12 +368,12 @@ a {
 }
 
 .carousel-control-prev-icon {
-    background-image: url('../\images/arrow-2.svg');
+    background-image: url('../images/arrow-2.svg');
     transform: translateY(10px);
 }
 
 .carousel-control-next-icon {
-    background-image: url('../\images/arrow-1.svg');
+    background-image: url('../images/arrow-1.svg');
     transform: translateY(10px);
 
 }
@@ -395,7 +396,7 @@ a {
 /* Team page global styles==================================================== */
 /* Hero section styles */
 #HeroTeam {
-    background: url(../\images/artiom-vallat-yvrw-7-lb-98-fe-unsplash-1.png);
+    background: url(../images/artiom-vallat-yvrw-7-lb-98-fe-unsplash-1.png);
     background-size: cover;
 }
 
@@ -634,7 +635,7 @@ a {
     }
 
     .employee-image-1{
-        background: url(../\images/craig-mckay-jm-u-rdhtm-7-ng-unsplash-1Mobile.png);
+        background: url(../images/craig-mckay-jm-u-rdhtm-7-ng-unsplash-1Mobile.png);
         background-size: cover;
         height: 238px;
     }
@@ -644,7 +645,7 @@ a {
     }
 
     .employee-image-2{
-        background: url(../\images/vicky-hladynets-c-8-ta-0-gw-pb-qg-unsplash-1Mobile.png);
+        background: url(../images/vicky-hladynets-c-8-ta-0-gw-pb-qg-unsplash-1Mobile.png);
         background-size: cover;
         height: 238px;
     }
@@ -654,7 +655,7 @@ a {
     }
 
     .employee-image-3{
-        background: url(../\images/stephanie-liverani-zz-5-l-qe-vsmy-unsplash-1Mobile.png);
+        background: url(../images/stephanie-liverani-zz-5-l-qe-vsmy-unsplash-1Mobile.png);
         background-size: cover;
         height: 238px;
     }
@@ -664,7 +665,7 @@ a {
     }
 
     .employee-image-4{
-        background: url(../\images/jakob-owens-lk-m-jc-gdzl-vs-unsplash-1Mobile.png);
+        background: url(../images/jakob-owens-lk-m-jc-gdzl-vs-unsplash-1Mobile.png);
         background-size: cover;
         height: 238px;
     }
