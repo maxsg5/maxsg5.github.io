@@ -131,6 +131,7 @@ a {
     color: #DBCC93;
 }
 
+/* off canvas nav bar list item anchors styling */
 #offcanvasNavbar>div.offcanvas-body>ul>li>a {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
@@ -237,6 +238,7 @@ a {
     background-color: #332C11;
 }
 
+/* Process positioning center */
 #Process>div>div.row.column-gap-5 {
     display: flex;
     justify-content: center;
@@ -530,6 +532,7 @@ a {
 
 /* Mobile */
 @media screen and (max-width: 991px) {
+    /* Header image */
     body>header>nav>div>a>img {
         width: 58px;
         height: 40px;
@@ -582,10 +585,6 @@ a {
     #FooterBrand{
         width: 104.348px;
         height: 72px;
-    }
-
-    body > footer > div > div > div.row.mt-5 > div > div {
-        transform: translateX(10px);
     }
 
     .footer-nav-item {
