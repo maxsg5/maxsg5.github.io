@@ -78,5 +78,5 @@ module.exports = {
         },
     },
 
-    mode: 'production', // Use 'production' for production builds
+    mode: 'development', // Use 'production' for production builds
 };

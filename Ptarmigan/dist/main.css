@@ -1,0 +1,767 @@
+/*!********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./Styles/style.css ***!
+  \********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./Styles/style.css (1) ***!
+  \************************************************************************/
+/* CSS for project 4  */
+
+/* Colors */
+
+/* White  */
+/* #FFFFFF; */
+
+/* light brown */
+/* #DBCC93; */
+
+/* dirty grey */
+/* #A8A492; */
+
+/* dirty brown */
+/* #756E56; */
+
+/* dirt */
+/* #423C23; */
+
+/* brown */
+/* #332C11; */
+
+/* black */
+/* #000000; */
+
+/* Font choices: */
+/* Red Hat Display */
+/* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+/* Hero Title */
+/* color: #FFFFFF; */
+/* text-align: center; */
+/* font-family: Red Hat Display; */
+/* font-size: 40px; */
+/* font-style: normal; */
+/* font-weight: 700; */
+/* line-height: normal; */
+
+/* font imports */
+
+/* box model fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Micro clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #332C11;
+}
+
+
+/* Type hierarchy styling=============================================== */
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    /* text-align: center; */
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    /* text-align: center; */
+
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    /* text-align: center; */
+
+}
+
+h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #DBCC93;
+}
+
+#offcanvasNavbar>div.offcanvas-body>ul>li>a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* Homepage Global Styles=============================================== */
+/* call us box style */
+.call-box {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    margin-right: -45px;
+    text-decoration: none;
+}
+
+.call-box:hover {
+    color: #DBCC93;
+    cursor: pointer;
+}
+
+.call-box .phone-icon {
+    background-image: url(d6ce25e3955e8d06b10f.svg);
+    width: 30px;
+    height: 31px;
+    margin-right: 10px;
+}
+
+/* .call-box .phone-icon:hover {
+    background-image: url('../images/PhoneVectorHover.svg');
+} */
+
+
+.contact-box .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box .phone-number {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* offcanvas nav styling */
+#offcanvasNavbar {
+    background: #A8A492;
+}
+
+.offcanvas-header {
+    background-color: #332C11;
+    height: 67px;
+}
+
+.offcanvas-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #332C11;
+    height: 67px;
+    width: 110%;
+    transform: translateX(-17px);
+    padding-right: 50px;
+}
+
+.offcanvas-footer .call-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offcanvasNavbar>div.offcanvas-header>button {
+    opacity: 1;
+    display: block;
+    margin-left: 90%;
+}
+
+/* Hero section style */
+#Hero {
+    background: url(a6838145e4dc6fc6ef4d.svg);
+    background-size: cover;
+}
+
+#Hero>div:nth-child(1) {
+    padding-top: 150px;
+}
+
+#Hero button {
+    /* margin-top: 50px; */
+    width: 200px;
+}
+
+/* About section style */
+#About {
+    background-size: cover;
+    background-color: #332C11;
+}
+
+#About button {
+    margin-top: 25px;
+}
+
+
+/* Process section style */
+#Process {
+    background: url(ae54b75993de89a45191.svg);
+    background-size: cover;
+    background-color: #332C11;
+}
+
+#Process>div>div.row.column-gap-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.process-p {
+    font-size: 24px;
+}
+
+.step-text {
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.step-title-text {
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* Not convinced Blurb style */
+#NotConvinced {
+    background-size: cover;
+    background-color: #332C11;
+}
+
+/* Services section style */
+#Services {
+    background-size: cover;
+    background-color: #A8A492;
+}
+
+#Services h2 {
+    color: #000000;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em 2em;
+    grid-template-areas:
+        ". ."
+        ". .";
+    padding-bottom: 5em;
+    width: 70%;
+}
+
+.service-box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-title {
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.service-text {
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Styling for each indicator */
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Highlight the active indicator */
+.indicator.active {
+    background-color: #fff;
+}
+
+/* Styling for carousel navigation buttons */
+.custom-carousel {
+    padding-bottom: 100px;
+}
+
+.carousel-control {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    transform: translateY(66px);
+}
+
+.carousel-indicators>.rounded {
+    border-radius: 50% !important;
+    height: 27px;
+    background-color: black;
+}
+
+.carousel-indicators>.custom-controls {
+    background-color: #00000000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(77889ba807fc9729f2b3.svg);
+    transform: translateY(10px);
+}
+
+.carousel-control-next-icon {
+    background-image: url(ee2be2c541373b6ff100.svg);
+    transform: translateY(10px);
+
+}
+
+/* cta button style */
+.btn-cta {
+    border-style: none;
+    background-color: #DBCC93;
+    border-radius: 40px;
+    color: #000000;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Team page global styles==================================================== */
+/* Hero section styles */
+#HeroTeam {
+    background: url(183229e2c8f4de2f851e.png);
+    background-size: cover;
+}
+
+#HeroTeam>div:nth-child(1) {
+    padding-top: 150px;
+}
+
+.hero-team-text {
+    width: 791px;
+}
+
+/* Team section styles */
+#Team {
+    background-size: cover;
+    background-color: #A8A492;
+}
+
+#Team h2 {
+    color: #000000;
+}
+
+.employee-card{
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0em 1em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Left Right";
+    width: 90%;
+}
+  
+.employee-image { 
+    grid-area: Left; 
+    
+}
+  
+.employee-text { 
+    grid-area: Right; 
+}
+
+.employee-text p { 
+    text-align: left;
+    color: #000;
+    
+}
+
+.employee-text h3 { 
+    text-align: left;
+    color: #000;
+    
+}
+  
+
+/* media queries===============================================================*/
+/* Desktop */
+@media screen and (min-width: 1276px) {
+    form {
+        padding-top: 25px;
+    } 
+}
+@media screen and (min-width: 992px) and (max-width: 1275px) {
+    form {
+        padding-top: 49px;
+    } 
+}
+@media screen and (min-width: 992px) {
+    .offcanvas {
+        display: none;
+    }
+
+    #About p {
+        font-size: 24px;
+        width: 490px;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    #About {
+        height: 450px;
+    }
+
+    #Hero {
+        height: 660px;
+    }
+
+    #HeroTeam {
+        height: 660px;
+    }
+
+    #Hero button {
+        margin-top: 190px;
+    }
+
+    #Hero>div:nth-child(1) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .footer-grid {
+        width: 60%;
+    }
+
+    #DesktopMap {
+        margin-top: 10px;
+    }
+    #MobileMap {
+        display: none;
+    }
+
+    #FooterBrand{
+        width: 167.081px;
+        height: 115px;
+    }
+    .footer-nav-item {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .service-box-right {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .service-box-right-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .employee-text p { 
+        text-align: left;
+        color: #000;
+        width: 223px;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 991px) {
+    body>header>nav>div>a>img {
+        width: 58px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    /* header-links */
+    body>header>nav>div>div:nth-child(2) {
+        display: none;
+    }
+
+    /* call-us in header */
+    body>header>nav>div>div.call-box {
+        display: none;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2em 2em;
+        grid-template-areas:
+            "."
+            "."
+            "."
+            ".";
+        width: 100%;
+    }
+
+    .footer-grid {
+        width: 100%;
+    }
+
+    #DesktopMap {
+        display: none;
+    }
+
+    #MobileMap {
+        height: 300px;
+        width: 100%;
+    }
+
+    #FormSubmitBtn {
+        width: 100%;
+        margin-top: 21px;
+        margin-bottom: 30px;
+    }
+
+    #FooterBrand{
+        width: 104.348px;
+        height: 72px;
+    }
+
+    body > footer > div > div > div.row.mt-5 > div > div {
+        transform: translateX(10px);
+    }
+
+    .footer-nav-item {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .hero-team-text {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .employee-card{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0em 0em; 
+        grid-template-areas: 
+            "Left"
+            "Right"; 
+        width: 100%;
+    }
+
+    .employee-image-1 img{
+        display: none;
+    }
+
+    .employee-image-1{
+        background: url(8452d78ef798b86cf698.png);
+        background-size: cover;
+        height: 238px;
+    }
+
+    .employee-image-2 img{
+        display: none;
+    }
+
+    .employee-image-2{
+        background: url(66d11fd5fc0157354096.png);
+        background-size: cover;
+        height: 238px;
+    }
+
+    .employee-image-3 img{
+        display: none;
+    }
+
+    .employee-image-3{
+        background: url(978c5b749b5c83e9af05.png);
+        background-size: cover;
+        height: 238px;
+    }
+
+    .employee-image-4 img{
+        display: none;
+    }
+
+    .employee-image-4{
+        background: url(0cfeec4754fe24f3dd55.png);
+        background-size: cover;
+        height: 238px;
+    }
+
+    .service-box-right {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .service-box-right-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+
+/* HEADER/FOOTER Global styles Put at the end to avoid style conflicts and maintain consistency */
+/* Header Styles */
+header nav {
+    background-color: #332C11;
+}
+
+.header-links {
+    white-space: nowrap;
+}
+
+.header-links a {
+    display: inline;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-links a:hover {
+    color: #DBCC93;
+    text-decoration: underline;
+}
+
+.header-links a:active {
+    color: #A8A492;
+    text-decoration: underline;
+}
+
+.header-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #332C11;
+    color: #FFFFFF;
+}
+
+.footer-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+iframe {
+    width: 100%;
+    height: 283px;
+}
+
+.form-control::placeholder {
+    color: black;
+    opacity: 0.4;
+}
+
+input {
+    height: 50px;
+}
+
+.label-text {
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 131.523%;
+}
+
+#FormSubmitBtn {
+    width: 100%;
+    margin-top: 27px;
+}
+
