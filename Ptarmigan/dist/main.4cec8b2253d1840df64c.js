@@ -16,7 +16,17 @@
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Styles/style.css */ \"./Styles/style.css\");\n//import css\n\n// On click event for hiding the mobile menu when a link is clicked.\n$('.nav-link').on('click', function () {\n  $('#offcanvasNavbar').offcanvas('hide');\n});\n\n// On click event for calling a phone number (e.g. on mobile devices this should open the default phone app).\n$('.call-box').on('click', function () {\n  var phoneNumber = $(this).find('.phone-number').text();\n  window.location.href = \"tel:\" + phoneNumber;\n});\n\n//# sourceURL=webpack://ptarmigan/./scripts/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Styles_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Styles/normalize.css */ \"./Styles/normalize.css\");\n/* harmony import */ var _Styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Styles/style.css */ \"./Styles/style.css\");\n//import css\n\n\n\n// On click event for hiding the mobile menu when a link is clicked.\n$('.nav-link').on('click', function () {\n  $('#offcanvasNavbar').offcanvas('hide');\n});\n\n// On click event for calling a phone number (e.g. on mobile devices this should open the default phone app).\n$('.call-box').on('click', function () {\n  var phoneNumber = $(this).find('.phone-number').text();\n  window.location.href = \"tel:\" + phoneNumber;\n});\n\n//# sourceURL=webpack://ptarmigan/./scripts/script.js?");
+
+/***/ }),
+
+/***/ "./Styles/normalize.css":
+/*!******************************!*\
+  !*** ./Styles/normalize.css ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://ptarmigan/./Styles/normalize.css?");
 
 /***/ }),
 
