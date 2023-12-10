@@ -1,5 +1,20 @@
-
 # Node.js
 node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-error.log*
+
+# Distribution folder
+/dist/
+
+# Environment files
+.env
+
+# Editor configurations
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Debugging files
+*.log
