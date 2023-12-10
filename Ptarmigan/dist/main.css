@@ -532,11 +532,6 @@ a {
     margin-right: 10px;
 }
 
-/* .call-box .phone-icon:hover {
-    background-image: url('../images/PhoneVectorHover.svg');
-} */
-
-
 .contact-box .text {
     display: flex;
     flex-direction: column;
